@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Azim Dehghani Amirabadt"
+title                    : "Azim Dehghani Amirabad"
 title_separator          : "-"
 name                     : &name "Azim Dehghani Amirabad"
 description              : &description "Postdoctoral associate at MIT"
@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Azim Dehghani Amirabad"
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   bio              : "Postdoctoral associate, MIT"
   location         : "Boston, USA"
   employer         : 
