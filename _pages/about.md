@@ -10,8 +10,8 @@ redirect_from:
 
 My name is Azim, I'm a postdoc in Professor Manolis Kellis's lab in CSAIL, MIT. Perviously I was a PhD. student at Max Planck Institute for Informatics.
 
-title: "Summary""
-excerpt: "Summary"
+## Summary
+
 The cell is a highly mysterious intelligent machine that fascinates my imagination and arouses my curiosity. My
 research revolves around development and application of principled machine learning methods for interpreting
 complex biological data sets. I love to design novel machine learning algorithms, especially when they allow the
