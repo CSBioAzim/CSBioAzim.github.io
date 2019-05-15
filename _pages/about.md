@@ -17,3 +17,5 @@ research revolves around development and application of principled machine learn
 complex biological data sets. I love to design novel machine learning algorithms, especially when they allow the
 analysis of data in ways that have not yet been possible. I am interested in working on fundamental biological
 problems that would have an impact on our understanding of human cells and disease mechanisms. An ongoing theme in my research is the integration of multi-omics data sets to understand underlying biological processes that contribute to a specific phenotype.
+
+## Current research
