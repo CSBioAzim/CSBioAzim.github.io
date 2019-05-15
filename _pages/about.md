@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-This is Dr. Test Account's home on the web!
+My name is Azim, I'm a postdoc in Professor Manolis Kellis's lab in CSAIL, MIT. Perviously I was a PhD. student at Max Planck Institute for Informatics.
 
 Lorem ipsum.
