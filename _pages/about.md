@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Azim, I'm a postdoc in [link](http://compbio.mit.edu/compbio.html "Professor Manolis Kellis's lab")  in CSAIL, MIT. Perviously I was a PhD. student at Max Planck Institute for Informatics.
+My name is Azim, I'm a postdoc in [Professor Manolis Kellis's lab](http://compbio.mit.edu/compbio.html) in CSAIL, MIT. Perviously I was a PhD. student at Max Planck Institute for Informatics.
 
 ## Summary
 
