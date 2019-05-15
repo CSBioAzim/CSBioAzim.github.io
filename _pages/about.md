@@ -30,9 +30,5 @@ envision that single cell multi-omics data analytics will revolutionize basic bi
 
 ## Computational Epigenomics
 
-I would like to continue my work on understanding the system perspective of transcriptional and post-transcriptional
-
-gene regulation, answering questions like: What are the rules of enhancer gene targeting? How do structural vari-
-ations in enhancers effect target gene regulation? Which epigenetic signatures contribute to establishing cell
-
+I would like to continue my work on understanding the system perspective of transcriptional and post-transcriptional gene regulation, answering questions like: What are the rules of enhancer gene targeting? How do structural variations in enhancers effect target gene regulation? Which epigenetic signatures contribute to establishing cell
 identity? Which regulatory interactions are involved in changing cell identity?
