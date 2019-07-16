@@ -5,9 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
- **1) Multi-task learning of transcript isoform regulatory network**
- 
-**Azim Dehghani Amirabad**, Marcel H. Schulz (in submission)
+ **1) Multi-task learning of transcript isoform regulatory network**   **Azim Dehghani Amirabad**, Marcel H. Schulz (in submission)
  
 **2) Large-scale inference of competing endogeneous RNA networks with sparse partial correlation**
 
