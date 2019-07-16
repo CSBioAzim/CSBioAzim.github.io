@@ -5,7 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-..* **Multi-task learning of transcript isoform regulatory network**
+ ** 1) Multi-task learning of transcript isoform regulatory network**
+ **Azim Dehghani Amirabad**, Marcel H. Schulz (in submission)
+ 
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
