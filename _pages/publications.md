@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-1) Multi-task learning of transcript isoform regulatory network
+..* **Multi-task learning of transcript isoform regulatory network**
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
