@@ -23,6 +23,9 @@ Bioinformatics (Proceedings of ISMB), 2019. ([full text](https://academic.oup.co
 **8) Epigenetic regulation of serotype expression antagonizes transcriptome dynamics in Paramecium tetraurelia** <br/>M Cheaib, **A Dehghani Amirabad**, KJV Nordstroem, MH Schulz, M Simon <br\>DNA Research, Oxford Journals. 2015 Jun (full text) 
 
 **9) Attenuation of NF-kB and activation of Nrf2 signaling by 1,2,4-triazine derivatives, protects neuron-like PC12 cells against apoptosis**<br/>Tusi SK1, Ansari N, Amini M, **Amirabad AD**, Shafiee A, Khodagholi F <br/>Apoptosis. 2010 Jun;15(6):738-51 (full text) 
+
+**10)Inhibition of LPS-induced apoptosis in differentiated-PC12 cells by new triazine derivatives through NF-kB-mediated suppression of COX-2**<br/>Ansari N1, Khodagholi F, Ramin M, Amini M, Irannejad H, Dargahi L, **Amirabad AD**<br\>
+Neurochem Int. 2010 Dec (full text) 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
