@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Azim, I'm a postdoc in [Professor Manolis Kellis's lab](http://compbio.mit.edu/compbio.html) in [CSAIL](https://www.csail.mit.edu/), MIT. Perviously I was a PhD. student in the [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/departments/research-group-computational-biology/), Germany.
+My name is Azim, I'm a postdoc in [Professor Manolis Kellis's lab](http://compbio.mit.edu/compbio.html) in [CSAIL](https://www.csail.mit.edu/), MIT. Perviously, I was a PhD. student in the [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/departments/research-group-computational-biology/), Germany.
 My email is: azimd@mit.edu
 
 ## Summary
