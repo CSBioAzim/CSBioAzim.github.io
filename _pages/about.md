@@ -26,7 +26,7 @@ level. These technologies drive new discoveries and are rapidly advancing, which
 and improvement of computational methods for integration, interpretation, and analysis. I would like to
 develop new methods for single cell data analysis using a combination of rigorous statistical approaches. These
 methods are necessary to cope with the inherent noise of these technologies and to focus on computationally
-efficient design and implementation such that resulting method can handle thousands of single cell omics data
+efficient design and implementation such that resulting method can handle thousands of single cell omics data.
 ## Computational Epigenomics
 
 I would like to continue my work on understanding the system perspective of transcriptional and post-transcriptional gene regulation, answering questions like: What are the rules of enhancer gene targeting? How do structural variations in enhancers effect target gene regulation? Which epigenetic signatures contribute to establishing cell
