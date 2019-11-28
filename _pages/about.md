@@ -8,8 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-My name is Azim, I'm a postdoc in [Professor Manolis Kellis's lab](http://compbio.mit.edu/compbio.html) in [CSAIL](https://www.csail.mit.edu/), MIT. Perviously, I was a PhD. student in the [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/departments/research-group-computational-biology/), Germany.
-My email is: azimd@mit.edu
+I’m a Bioinformatican by eduction. I develop systems biology models and machine learning algorithms to analyse the complexities of biological systems at the single-cell level. Currently, I’m developing models to enhance the functional interpretation of Single Cell RNA-seq (scRNA=seq) data by integrating genetics and single cell ATAC-Seq (scATAC-seq) data in the context of different human brain disorders. 
+
+
+
+## Short CV
+I  received a master  in Bioinformatics from the Max Planck Institute and Saarland University, Germany. I did my PhD. with the [International Max Planck Research School for Computer Science](https://www.imprs-cs.de/) at the [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/home/) in Germany. Since April 2019, I am a postdoctoral research associate with a joint appointment at  Broad Institute of MIT and Harvard, and MIT Computer Science and Artificial Intelligence Laboratory (CSAIL).
+
+
+
 
 ## Summary
 
