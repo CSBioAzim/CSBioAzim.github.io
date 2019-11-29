@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Bioinformatican by eduction. I develop systems biology models and machine learning algorithms to analyse the complexities of biological systems at the single-cell level. Currently, I am developing models to enhance the functional interpretation of single cell RNA-seq (scRNA-seq) data by integrating genetics and single cell ATAC-Seq (scATAC-seq) data in the context of different human brain disorders. 
+I am a bioinformatician by eduction. I develop systems biology models and machine learning algorithms to analyze the complexities of biological systems at the single-cell level. Currently, I am developing models to enhance the functional interpretation of single cell RNA-seq (scRNA-seq) data by integrating genetics and single cell ATAC-seq (scATAC-seq) data in the context of different human brain disorders. 
 
 
 
