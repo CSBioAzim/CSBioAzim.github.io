@@ -19,8 +19,7 @@ I  received a master  in Bioinformatics from the [Max Planck Institute for Infor
  
 
 ## Awards
-
+* International Max Planck Research School for Computer Science ( [IMPRS-CS](https://www.imprs-cs.de/)) PhD Fellowship
 * [DAADA](https://www.daad.de/en/) fellowship for doctorial reseach visit at MIT
 * Travel fellowship for [German Conference on Bioinformatics](https://gcb2019.de/) 2016
 * Travel fellowship for [ISMB-SIG 2016](https://irbgroup.org/)
-* International Max Planck Research School for Computer Science ( [IMPRS-CS](https://www.imprs-cs.de/)) PhD Fellowship
