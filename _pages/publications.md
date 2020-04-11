@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
- **1) Multi-task learning of transcript isoform regulatory network** <br/>**Azim Dehghani Amirabad**, Marcel H. Schulz (in submission)
+ **1) When genes are not enough: learning of transcript isoform regulatory networks** <br/>**Azim Dehghani Amirabad**, Marcel H. Schulz (submitted)
  
 **2) Large-scale inference of competing endogeneous RNA networks with sparse partial correlation** <br/>Markus List, **Azim Dehghani Amirabad** , Dennis Kostka, Marcel H. Schulz
 Bioinformatics (Proceedings of ISMB), 2019. ([full text](https://academic.oup.com/bioinformatics/article/35/14/i596/5529172)) 
