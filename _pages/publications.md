@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-**1) An efficient regularization method too eliminate vanishing gradient effect in deep neural networks** (under submision)
+**1) An efficient regularization method to eliminate vanishing gradient effect in deep neural networks** (under submision)
 
  **2) When genes are not enough: learning of transcript isoform regulatory networks** <br/>**Azim Dehghani Amirabad**, Marcel H. Schulz (submitted)
  
