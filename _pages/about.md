@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a data scientist (Machine Learning & bioinformatics) by eduction. I develop systems biology models and machine learning algorithms to model and analyze gene regulation. Currently, I am developing models to enhance the functional interpretation of single cell RNA-seq (scRNA-seq) data by integrating genetics and single cell ATAC-seq (scATAC-seq) data in the context of different human brain disorders. 
+I am a data scientist (Machine Learning & Bioinformatics) by eduction. I develop systems biology models and machine learning algorithms to model and analyze gene regulation. Currently, I am developing models to enhance the functional interpretation of single cell RNA-seq (scRNA-seq) data by integrating genetics and single cell ATAC-seq (scATAC-seq) data in the context of different human brain disorders. 
 
 
 
