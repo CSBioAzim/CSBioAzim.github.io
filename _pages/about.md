@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am a **data scientist** (Machine Learning & Bioinformatics) by eduction. My main focus is on the problems at the interface of **Artificial Intelligence** and **Bioinformatics**. I develop and use state of art **deep learning** and **machine learning** algorithms to learn, infer and predict the regulatory circuitry in biological systems.
-Perviously, I've developed systems biology models and machine learning algorithms to model and analyze gene regulation.
+Perviously, I've developed systems biology models and machine learning algorithms to model and analyze complex **genomic data**.
 
  <br/><img src='/images/Azim_ResearchSummaryFinal.png'>
 
