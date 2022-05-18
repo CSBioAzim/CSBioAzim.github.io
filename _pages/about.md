@@ -16,7 +16,7 @@ Perviously, I've developed systems biology models and machine learning algorithm
 
 ## Short Bio
 I  received a master  in Bioinformatics from the [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/home/) and [Saarland University](https://zbi-www.bioinf.uni-sb.de/en) in Germany. I did my PhD. with the [International Max Planck Research School for Computer Science](https://www.imprs-cs.de/) at the Max Planck Institute for Informatics. While at Max Planck, I was fortunate to be advised by [Prof. Marcel Schulz](https://schulzlab.github.io/MS.html), also I was a visiting student at [Prof. Ernest Fraenkel's lab](http://fraenkel.mit.edu/).
- Since April 2019, I am a postdoctoral research associate at [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/), and [MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)](https://www.csail.mit.edu/). In my spare time, I play soccer and go hiking. My favorite soccer player is [Cristiano Ronaldo](https://www.youtube.com/watch?v=vUyXa1SOeXQ).
+ Since April 2019, I am a postdoctoral research associate at [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/), and [MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)](https://www.csail.mit.edu/). In my spare time, I play soccer and go hiking. My favorite soccer player is [Cristiano Ronaldo](https://www.youtube.com/watch?v=OUKGsb8CpF8&t=412s).
 
  
  
