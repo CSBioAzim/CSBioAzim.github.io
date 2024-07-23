@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a **AI scientist** (Machine Learning & Bioinformatics) by education. My main focus is on the problems at the interface of **Artificial Intelligence** and **Bioinformatics**. I develop and use state of the art **deep learning** and **machine learning** algorithms to learn, infer and predict the regulatory circuitry in biological systems.
+I am an **AI scientist** (Machine Learning & Bioinformatics) by education. My main focus is on the problems at the interface of **Artificial Intelligence** and **Bioinformatics**. I develop and use state of the art **deep learning** and **machine learning** algorithms to learn, infer and predict the regulatory circuitry in biological systems.
 Previously, I've developed systems biology models and machine learning algorithms to model and analyze complex **genomic data**.
 
  <br/><img src='/images/Azim_ResearchSummaryFinal.png'>
