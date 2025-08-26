@@ -7,8 +7,8 @@ author_profile: true
 
 
 **1) Multimodal Modeling of CRISPR-Cas12 Activity Using Foundation Models and Chromatin Accessibility Data** ** <br/>**Azim Dehghani Amirabad**, Yanfei Zhang, Artem Moskalev, Sowmya Rajesh, Tommaso Mansi, Shuwei Li, Mangal Prakash, Rui Liao.
-ICML 2025. ([full text]([https://academic.oup.com/bioinformatics/article/35/14/i596/5529172](https://openreview.net/pdf/53cf4d58ae4c7f9bee4b2f82d0d81d4a54fe65bb.pdf)
- **2) When genes are not enough: learning of transcript isoform regulatory networks** <br/>**Azim Dehghani Amirabad**, Marcel H. Schulz (submitted)
+ICML 2025. ([full text]((https://openreview.net/pdf/53cf4d58ae4c7f9bee4b2f82d0d81d4a54fe65bb.pdf))
+
  
 **3) Large-scale inference of competing endogeneous RNA networks with sparse partial correlation** <br/>Markus List, **Azim Dehghani Amirabad** , Dennis Kostka, Marcel H. Schulz
 Bioinformatics (Proceedings of ISMB), 2019. ([full text](https://academic.oup.com/bioinformatics/article/35/14/i596/5529172)) 
