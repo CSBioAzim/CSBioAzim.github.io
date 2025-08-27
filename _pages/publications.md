@@ -5,8 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-**1) Multimodal foundational model of H&E and Spatial transcriptomics data** <br/>**Azim Dehghani Amirabad**, Yanfei Zhang, Artem Moskalev, Sowmya Rajesh, Tommaso Mansi, Shuwei Li, Mangal Prakash, Rui Liao.
-ICML 2025. (In prepration)
+**1) Multimodal foundational model of H&E and Spatial transcriptomics data** <br/>**Azim Dehghani Amirabad**. (In preparation)
 
 **2) Multimodal Modeling of CRISPR-Cas12 Activity Using Foundation Models and Chromatin Accessibility Data** <br/>**Azim Dehghani Amirabad**, Yanfei Zhang, Artem Moskalev, Sowmya Rajesh, Tommaso Mansi, Shuwei Li, Mangal Prakash, Rui Liao.
 ICML 2025. ([full text](https://openreview.net/pdf/53cf4d58ae4c7f9bee4b2f82d0d81d4a54fe65bb.pdf))
