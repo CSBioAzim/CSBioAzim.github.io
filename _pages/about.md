@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 I am an **AI scientist** specializing in Deep Learning and Bioinformatics. My work focuses on **LLMs** and **foundational models** to integrate multimodal data (omics, images, text, single-cell), unravel complex biological systems, and identify therapeutic targets. I also explore **generative biology** and perturbational modeling to design biological sequences and validate targets, and developing **agentic AI** systems to automate discovery, orchestrate complex analyses and experiment design
-I am an **AI scientist** with a solid background in AI, specializing in Machine Learning and Bioinformatics. 
 
 
  <br/><img src='/images/Azim_ResearchSummaryFinal.png'>
