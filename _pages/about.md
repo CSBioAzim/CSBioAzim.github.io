@@ -28,7 +28,7 @@ I am currently a principal Artificial Intelligence scientist at [J&J](https://ww
 
 ## Students and Interns
 
-*  **Junchao Zhu** – Summer intern from Vanderbilt University working on a multimodal foundation model for spatial omics
+*  **Junchao Zhu** – Summer intern from Vanderbilt University working on  multimodal foundation model for spatial omics
 *  **Sophie Guo** – Summer intern from MIT, working on generative modeling of perturbational single-cell data
   
  
