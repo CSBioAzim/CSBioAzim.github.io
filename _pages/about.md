@@ -7,7 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am an **AI scientist** specializing in Deep Learning and Bioinformatics. My work focuses on **LLMs** and **foundational models** to integrate multimodal data (omics, images, text, single-cell), unravel complex biological systems, and identify therapeutic targets. I also explore **generative biology** and **perturbational modeling** to design biological sequences and validate targets, and developing **agentic AI** systems to automate discovery, orchestrate complex analyses and experiment design.
+I am a principal AI scientist specializing in **deep learning** and **bioinformatics**. My work focuses on **LLMs** and **foundation models** to integrate multimodal data—omics, imaging, text, and single-cell—unlocking deeper insights into complex biological systems and enabling the identification of therapeutic targets. I also explore **generative biology** and **perturbational modeling** for sequence design and target validation, while building **agentic AI** systems to automate discovery, orchestrate complex analyses, and accelerate experimental design.
+
+With more than a decade of experience at the intersection of AI and bioinformatics, I bridge deep scientific insight with strategic decision-making to deliver scalable, high-impact solutions. I focus on aligning AI innovation with organizational priorities, fostering cross-functional collaboration, and mentoring the next generation of scientists—ensuring that AI serves as a transformative force in how we discover and deliver new therapies.
 
 
  <br/><img src='/images/Azim_ResearchSummaryFinal.png'>
