@@ -23,7 +23,7 @@ I am currently a principal Artificial Intelligence scientist at [J&J](https://ww
   
 * I presented our paper on multimodal foundational model for gRNA activity prediction at ICML 2025, Vancover ([fulltext](https://openreview.net/pdf/53cf4d58ae4c7f9bee4b2f82d0d81d4a54fe65bb.pdf)) 
 *  I gave an invited talk at [Boston Biotech Summit 2024](https://bostonbiotechnologysummit.com/program/speakers/) about AI applications in biotech and pharmaceutical industry ([pre summit interveiw](https://www.youtube.com/watch?v=enxpQX6PFiQ)).
-
+  
  
 
 ## Awards
