@@ -11,7 +11,6 @@ I am a principal AI scientist specializing in **deep learning** and **bioinforma
 
 With more than a decade of experience at the intersection of AI and bioinformatics, I bridge deep scientific insight with strategic decision-making to deliver scalable, high-impact solutions. I focus on aligning AI innovation with organizational priorities, fostering cross-functional collaboration, and mentoring the next generation of scientists—ensuring that AI serves as a transformative force in how we discover and deliver new therapies.
 
-
  <br/><img src='/images/Azim_ResearchSummaryFinal.png'>
 
 
@@ -26,6 +25,11 @@ I am currently a principal Artificial Intelligence scientist at [J&J](https://ww
   
 * I presented our paper on  **multimodal foundational model for gRNA activity prediction** at ICML 2025, Vancouver ([fulltext](https://openreview.net/pdf/53cf4d58ae4c7f9bee4b2f82d0d81d4a54fe65bb.pdf)) 
 *  I gave an invited talk at [Boston Biotech Summit 2024](https://bostonbiotechnologysummit.com/program/speakers/) on **AI applications in biotech and pharmaceutical industry** ([ Watch my pre-summit interveiw](https://www.youtube.com/watch?v=enxpQX6PFiQ)).
+
+## Students and Interns
+
+*  **Junchao Zhu** – Summer intern from Vanderbilt University working on a multimodal foundation model for spatial omics
+*  **Sophie Guo** – Summer intern from MIT, working on generative modeling of perturbational single-cell data
   
  
 
