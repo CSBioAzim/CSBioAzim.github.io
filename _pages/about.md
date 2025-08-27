@@ -18,10 +18,10 @@ I am currently a principal Artificial Intelligence scientist at [J&J](https://ww
  From April 2019 - February 2021, I was a postdoctoral research associate at [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/), and [MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)](https://www.csail.mit.edu/) under the supervision  of [Prof. Manolis Kellis](http://compbio.mit.edu/compbio.html). In my spare time, I play soccer and go hiking. My favorite soccer player is [Cristiano Ronaldo](https://www.youtube.com/watch?v=OUKGsb8CpF8&t=412s).
 
  ## News
- * I will give an invited talk on AI’s Impact on the Future of Biotechnology at ([MIT Department of Engineering](https://neet.mit.edu/threads/lm)) in October 2025.
-* I gave an invited talk at([Boston Biotech Summit](https://bostonbiotechnologysummit.com/program/speakers/)) about how AI is transforming value creation in biotech([blog about talk](https://www.cpl.com/blog/2025/07/ai-transforms-digital-health-key-insights-from-recent-biotech-summits)).
+ * I will give an invited talk on AI’s Impact on the Future of Biotechnology at [MIT Department of Engineering](https://neet.mit.edu/threads/lm) in October 2025.
+* I gave an invited talk at[Boston Biotech Summit](https://bostonbiotechnologysummit.com/program/speakers/) about how AI is transforming value creation in biotech ([blog about talk](https://www.cpl.com/blog/2025/07/ai-transforms-digital-health-key-insights-from-recent-biotech-summits)).
   
-* I presented our paper on multimodal foundational model for gRNA activity prediction at ICML 2025, Vancover [fulltext]([https://gcb2019.de/](https://openreview.net/pdf/53cf4d58ae4c7f9bee4b2f82d0d81d4a54fe65bb.pdf)) 
+* I presented our paper on multimodal foundational model for gRNA activity prediction at ICML 2025, Vancover ([fulltext]([https://gcb2019.de/))(https://openreview.net/pdf/53cf4d58ae4c7f9bee4b2f82d0d81d4a54fe65bb.pdf)) 
 *  I gave an invited talk at([Boston Biotech Summit](https://bostonbiotechnologysummit.com/program/speakers/)) about AI applications in biotech and pharmaceutical industry ([pre summit interveiw](https://www.youtube.com/watch?v=enxpQX6PFiQ)).
 
  
