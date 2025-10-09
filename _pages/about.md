@@ -13,6 +13,8 @@ With more than a decade of experience at the intersection of AI and bioinformati
 
 ## Research Areas:
  Generative Models, Large Language Models, Generative Biology, Multi omics
+
+ 
  <br/><img src='/images/Azim_ResearchSummaryFinal.png'>
 
 
