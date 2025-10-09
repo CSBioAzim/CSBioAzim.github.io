@@ -11,7 +11,7 @@ I am a principal AI scientist specializing in **deep learning** and **bioinforma
 
 With more than a decade of experience at the intersection of AI and bioinformatics, I bridge deep scientific insight with strategic decision-making to deliver scalable, high-impact solutions. I focus on aligning AI innovation with organizational priorities, fostering cross-functional collaboration, and mentoring the next generation of scientists—ensuring that AI serves as a transformative force in how we discover and deliver new therapies.
 
-## Research era:
+## Research Areas:
  Generative Models, Large Language Models, Generative Biology, Multi omics
  <br/><img src='/images/Azim_ResearchSummaryFinal.png'>
 
