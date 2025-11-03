@@ -38,6 +38,8 @@ I am currently a principal Artificial Intelligence scientist at [J&J](https://ww
  
 
 ## Awards
+
+* INSPIRE Award at J&J: Awarded in recognitation of expecptional leadership and scientific contribution (2023-2025).
 * International Max Planck Research School for Computer Science ([IMPRS-CS](https://www.imprs-cs.de/)) PhD Fellowship
 * [DAADA](https://www.daad.de/en/) fellowship for doctorial research visit at MIT
 * Travel fellowship for [German Conference on Bioinformatics](https://gcb2019.de/) 2016
