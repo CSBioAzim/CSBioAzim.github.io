@@ -32,7 +32,7 @@ I am currently a principal Artificial Intelligence scientist at [J&J](https://ww
 *  I gave an invited talk at [Boston Biotech Summit 2024](https://bostonbiotechnologysummit.com/program/speakers/) on **AI applications in biotech and pharmaceutical industry** ([ Watch my pre-summit interveiw](https://www.youtube.com/watch?v=enxpQX6PFiQ)).
 
 ## Students and Interns
-
+*  **Yuwei Miao** – Summer intern from University of Texas working on foundational models for virtual cell
 *  **Junchao Zhu** – Summer intern from Vanderbilt University working on  multimodal foundation model for spatial omics
 *  **Sophie Guo** – Summer intern from MIT, working on generative modeling of perturbational single-cell data
   
