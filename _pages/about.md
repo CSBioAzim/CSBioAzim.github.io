@@ -7,12 +7,25 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a principal AI scientist specializing in **deep learning** and **bioinformatics**. My work focuses on **LLMs** and **foundation models** to integrate multimodal data—omics, imaging, text, and single cell, unlocking deeper insights into complex biological systems and enabling the identification of therapeutic targets. I also explore **generative biology** and **perturbational modeling** for sequence design and target validation, while building **agentic AI** systems to automate discovery, orchestrate complex analyses, and accelerate experimental design.
+I am a Principal AI Scientist working at the intersection of artificial intelligence, machine learning, and computational biology. My research focuses on building foundation models and AI systems that integrate multimodal biological data—including genomics, transcriptomics, proteomics, imaging, and scientific literature—to accelerate scientific discovery and therapeutic innovation.
 
-With more than a decade of experience at the intersection of AI and bioinformatics, I bridge deep scientific insight with strategic decision-making to deliver scalable, high impact solutions. I focus on aligning AI innovation with organizational priorities, fostering cross functional collaboration, and mentoring the next generation of scientists, ensuring that AI serves as a transformative force in how we discover and deliver new therapies.
+My work spans large language models, generative biology, perturbation modeling, and agentic AI systems capable of reasoning over complex biological processes. I am particularly interested in developing **Virtual Cells** and **biological world models** that can simulate cellular behavior, predict responses to genetic and chemical perturbations, and guide experimental design at scale.
 
-## Research Areas:
- Generative Models, Large Language Models, Generative Biology, Multi Omics
+Over the past decade, I have led the development of AI-driven solutions across drug discovery, translational research, and biopharmaceutical R&D. My goal is to transform how science is conducted by combining foundation models, autonomous agents, and mechanistic biological knowledge to create intelligent systems that augment scientific decision-making and accelerate the path from data to therapies.
+
+## Current Research
+
+- Foundation Models for Biology
+- Virtual Cells and Biological World Models
+- Agentic AI for Scientific Discovery
+- Generative Biology and Sequence Design
+- Multimodal Learning and Data Integration
+- Single Cell and Spatial Omics
+- Causal Inference and Perturbation Modeling
+- AI for Drug Discovery and Biopharma R&D
+
+
+
 
  
  <br/><img src='/images/Azim_ResearchSummaryFinal.png'>
