@@ -1,4 +1,15 @@
 ---
+
+@charset "utf-8";
+
+// Dark blue theme overrides
+$primary-color: #1a2a4a;        // dark navy — nav bar, links
+$link-color: #4a90d9;           // bright blue for links (readable on dark)
+$background-color: #0d1b2a;     // very dark blue background
+$text-color: #e8eaf0;           // light text for contrast
+$border-color: #2a3f5f;         // subtle borders
+$masthead-link-color: #e8eaf0;  // nav links
+$masthead-link-color-hover: #4a90d9;
 ---
 
 /*
