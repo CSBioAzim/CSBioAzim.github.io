@@ -15,10 +15,11 @@ Over the past decade, I have led the development of AI-driven solutions across d
 
 ## Current Research
 
-- Foundation Models for Biology  - Virtual Cells & world models
-- Agentic AI for Scientific Discovery  - Generative Biology 
-- Multimodal Learning   - Single Cell and Spatial Omics
-- Causal Inference and Perturbation Modeling  - AI for Drug Discovery and Biopharma R&D
+- Foundation Models for Biology
+- Virtual Cells & World Models
+- Agentic AI for Scientific Discovery
+- Generative Biology 
+- Multimodal Learning
 
 
 
