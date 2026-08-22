@@ -34,6 +34,8 @@ I am currently a principal Artificial Intelligence scientist at [J&J](https://ww
 
 
 ## News
+* I will give an invited talk on **Scaling AI across Pharma R&D** at [AIDDD]([https://futurebiotechexpo.com/conference/speakers](https://www.aidrivendrugdevelopment.com/speakers-7lf7)) in October 2026.
+* Our work [PaSTel, bridging histology and spatial transcriptomics through multimodal, bio-prior-guided contrastive pretraining](https://arxiv.org/abs/2608.14924), was published at ICML 2026!
 * I will give an invited talk on **AI in Biotech: Accelerating Drug Discovery & Development** at [Future Bioteh Expo](https://futurebiotechexpo.com/conference/speakers) in Jun 2026.
 * I gave an invited talk on **AI’s Impact on the Future of Biotechnology** at [MIT Department of Engineering](https://neet.mit.edu/threads/lm) in October 2025.
 * I gave an invited talk at [Boston Biotech Summit 2025](https://bostonbiotechnologysummit.com/program/speakers/) on **how AI is transforming value creation in biotech** ([ See blog about my talk](https://www.cpl.com/blog/2025/07/ai-transforms-digital-health-key-insights-from-recent-biotech-summits)).
