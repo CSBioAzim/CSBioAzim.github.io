@@ -7,41 +7,35 @@ redirect_from:
   - /wordpress/blog-posts/
 ---
 <h1>Summary</h1>
- <br/><img src='/images/Azim_ResearchSummaryFinal.png'>
-
-
+<br/><img src='/images/Azim_ResearchSummaryFinal.png'>
 
 <p>The cell is a highly mysterious intelligent machine that fascinates my imagination and arouses my curiosity. My
 research revolves around development and application of principled machine learning methods for interpreting
 complex biological data sets. I love to design novel machine learning algorithms, especially when they allow the
 analysis of data in ways that have not yet been possible. I am interested in working on fundamental biological
-problems that would have an impact on our understanding of human cells and disease mechanisms. An ongoing theme in my research is the integration of single cell multi-omics data sets to understand underlying biological processes that contribute to a specific phenotype. </p>
-
-
+problems that would have an impact on our understanding of human cells and disease mechanisms. An ongoing theme in my research is the integration of single cell multi-omics data sets to understand underlying biological processes that contribute to a specific phenotype.</p>
 
 <h1>Projects</h1>
 
-<h2> Mechanism-Centric Virtual Cell World Modeling for Perturbation Response<h2>
-   <br/><img src='/images/VC.png'>
+<h2>Mechanism-Centric Virtual Cell World Modeling for Perturbation Response</h2>
+<br/><img src='/images/VC.png'>
 
+<p>A virtual cell is a computational model that simulates how a cell behaves and responds to interventions such as genetic perturbations or drugs, enabling biological experiments to be explored in silico before they are run in the lab. A core capability of such models is predicting how a cell's molecular state changes under perturbation. Most existing approaches map a baseline profile and a perturbation directly to an outcome, skipping the cellular transition in between. VCLMU instead represents cell state as a set of Latent Mechanism Units (LMUs), each pairing a reusable identity grounded in multimodal biological evidence with an observation-specific state, and treats perturbations as actions that drive mechanism-specific transitions in this latent space. Pretrained on ~200K pseudo-bulk profiles and then on single-cell perturbation data, VCLMU improves perturbation-specific response prediction across six held-out-perturbation benchmarks, and its learned units recover interpretable biological response programs.</p>
 
-A virtual cell is a computational model that simulates how a cell behaves and responds to interventions such as genetic perturbations or drugs, enabling biological experiments to be explored in silico before they are run in the lab. A core capability of such models is predicting how a cell's molecular state changes under perturbation. Most existing approaches map a baseline profile and a perturbation directly to an outcome, skipping the cellular transition in between. VCLMU instead represents cell state as a set of Latent Mechanism Units (LMUs), each pairing a reusable identity grounded in multimodal biological evidence with an observation-specific state, and treats perturbations as actions that drive mechanism-specific transitions in this latent space. Pretrained on ~200K pseudo-bulk profiles and then on single-cell perturbation data, VCLMU improves perturbation-specific response prediction across six held-out-perturbation benchmarks, and its learned units recover interpretable biological response programs.
-  
 <h2>PaSTel: Anchoring Histology in Spatial Transcriptomics via Multi-Scale Hierarchical Bio-Prior Contrastive Pretraining</h2>
-    <br/><img src='/images/PSTEL.png'>
+<br/><img src='/images/PSTEL.png'>
 
-  Spatial transcriptomics measures gene expression while keeping its location in the tissue, connecting what tissue looks like to what its cells are doing. PaSTel learns joint representations of histology images and gene expression by adding biological knowledge at three levels: emphasizing informative genes over housekeeping genes, anchoring to known biological pathways, and modeling how neighboring regions form tissue structure. PaSTel outperforms existing models across multiple downstream tasks.
+<p>Spatial transcriptomics measures gene expression while keeping its location in the tissue, connecting what tissue looks like to what its cells are doing. PaSTel learns joint representations of histology images and gene expression by adding biological knowledge at three levels: emphasizing informative genes over housekeeping genes, anchoring to known biological pathways, and modeling how neighboring regions form tissue structure. PaSTel outperforms existing models across multiple downstream tasks.</p>
 
-  
-<h2> Disentangling Marginal Capacity from Geometry in Optimal-Transport Label Transfer<h2>
-   <br/><img src='/images/OT.png'>
+<h2>Disentangling Marginal Capacity from Geometry in Optimal-Transport Label Transfer</h2>
+<br/><img src='/images/OT.png'>
 
-  Optimal transport (OT) is a common way to transfer labels between datasets, such as annotating spatial data using a labeled single-cell reference. When the two datasets have different cell-type compositions, OT systematically misses rare classes, and these errors are hard to detect because the model remains confident. We show the cause is that each class can only send as much “mass” as it has in the source data, so rare classes run out of capacity. Matching this capacity to the target composition nearly doubles macro-F1 on single-cell data (0.32 to 0.62). This also separates errors caused by limited capacity from errors caused by poorly separated classes.
+<p>Optimal transport (OT) is a common way to transfer labels between datasets, such as annotating spatial data using a labeled single-cell reference. When the two datasets have different cell-type compositions, OT systematically misses rare classes, and these errors are hard to detect because the model remains confident. We show the cause is that each class can only send as much "mass" as it has in the source data, so rare classes run out of capacity. Matching this capacity to the target composition nearly doubles macro-F1 on single-cell data (0.32 to 0.62). This also separates errors caused by limited capacity from errors caused by poorly separated classes.</p>
+
 <h2>IsoRegNet: A multi-task learning framework to model and analyze transcript isoform regulatory network</h2>
+<br/><img src='/images/IsoregNetfig.png'>
 
- <br/><img src='/images/IsoregNetfig.png'>
-
-<b2>Understanding gene regulation is an important aspect in the context of
+<p>Understanding gene regulation is an important aspect in the context of
 cell differentiation, disease and environmental changes. Due to the complexity
 of gene regulation, methods for the inference of gene regulatory
 networks (GRNs), are often limited to one type of regulator, for example
@@ -51,20 +45,19 @@ GRNs. I've developed a novel principled approach that allows to learn associatio
 between transcriptional and post-transcriptional regulators with
 genes or their transcript isoforms. Using a novel multi-task formulation
 we design a regression framework, which allows to overcome some of the
-noise in isoform expression level estimates, leading to accurate predictions.<b2>
+noise in isoform expression level estimates, leading to accurate predictions.</p>
 
 <h2>Inferring genome-wide networks of competing endogenous RNAs</h2>
- <br/><img src='/images/SpongFig.png'>
+<br/><img src='/images/SpongFig.png'>
 
-  MicroRNAs (miRNAs) are important non-coding post-transcriptional regulators that are involved in many biological processes and human diseases.
-  Individual miRNAs may regulate hundreds of genes, giving rise to a complex gene regulatory network in which transcripts carrying 
-  miRNA binding sites act as <strong>competing endogenous RNAs (ceRNAs)</strong>. Several methods for the analysis of ceRNA interactions exist,
-  but these do often not adjust for statistical confounders or address the problem that more than one miRNA interacts with a target transcript.
+<p>MicroRNAs (miRNAs) are important non-coding post-transcriptional regulators that are involved in many biological processes and human diseases.
+Individual miRNAs may regulate hundreds of genes, giving rise to a complex gene regulatory network in which transcripts carrying
+miRNA binding sites act as <strong>competing endogenous RNAs (ceRNAs)</strong>. Several methods for the analysis of ceRNA interactions exist,
+but these do often not adjust for statistical confounders or address the problem that more than one miRNA interacts with a target transcript.</p>
 
-  
-  We developed <strong>SPONGE</strong>, a method for the fast construction of ceRNA networks. SPONGE uses <strong>multiple sensitivity correlation</strong>, a newly defined measure for which we can estimate a distribution under a null hypothesis. SPONGE can accurately quantify the contribution of multiple miRNAs to a ceRNA interaction with a probabilistic model that addresses previously neglected confounding factors and allows fast P-value calculation, thus outperforming existing approaches. We applied SPONGE to paired miRNA and gene expression data from The Cancer Genome Atlas for studying global effects of miRNA-mediated cross-talk.
-  Our results highlight already established and novel protein-coding and non-coding ceRNAs which could serve as biomarkers in cancer.
-  
+<p>We developed <strong>SPONGE</strong>, a method for the fast construction of ceRNA networks. SPONGE uses <strong>multiple sensitivity correlation</strong>, a newly defined measure for which we can estimate a distribution under a null hypothesis. SPONGE can accurately quantify the contribution of multiple miRNAs to a ceRNA interaction with a probabilistic model that addresses previously neglected confounding factors and allows fast P-value calculation, thus outperforming existing approaches. We applied SPONGE to paired miRNA and gene expression data from The Cancer Genome Atlas for studying global effects of miRNA-mediated cross-talk.
+Our results highlight already established and novel protein-coding and non-coding ceRNAs which could serve as biomarkers in cancer.</p>
+
 <h1>Single cell genomics</h1>
 
 <p>Single-cell multi-omics data provides us an opportunity to understand biological processes at the fundamental
@@ -74,17 +67,10 @@ develop new methods for single cell data analysis using a combination of rigorou
 methods are necessary to cope with the inherent noise of these technologies and to focus on computationally
 efficient design and implementation such that resulting method can handle thousands of single cell omics data.</p>
 
-
-
-
-
 <h1>Computational Epigenomics</h1>
+
 <p>I would like to continue my work on understanding the system perspective of transcriptional and post-transcriptional gene regulation, answering questions like: What are the rules of enhancer gene targeting? How do structural variations in enhancers effect target gene regulation? Which epigenetic signatures contribute to establishing cell
 identity? Which regulatory interactions are involved in changing cell identity?</p>
-
-
-
-
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
