@@ -21,12 +21,22 @@ problems that would have an impact on our understanding of human cells and disea
 
 <h1>Projects</h1>
 
-<h2> An efficent regularizaion method to address vanishing gradient in deep neural network archetictures<h2>
-   <br/><img src='/images/DeepLearningFig.png'>
+<h2> Mechanism-Centric Virtual Cell World Modeling for Perturbation Response<h2>
+   <br/><img src='/images/VC.png'>
+
+
+A virtual cell is a computational model that simulates how a cell behaves and responds to interventions such as genetic perturbations or drugs, enabling biological experiments to be explored in silico before they are run in the lab. A core capability of such models is predicting how a cell's molecular state changes under perturbation. Most existing approaches map a baseline profile and a perturbation directly to an outcome, skipping the cellular transition in between. VCLMU instead represents cell state as a set of Latent Mechanism Units (LMUs), each pairing a reusable identity grounded in multimodal biological evidence with an observation-specific state, and treats perturbations as actions that drive mechanism-specific transitions in this latent space. Pretrained on ~200K pseudo-bulk profiles and then on single-cell perturbation data, VCLMU improves perturbation-specific response prediction across six held-out-perturbation benchmarks, and its learned units recover interpretable biological response programs.
+  
+<h2>PaSTel: Anchoring Histology in Spatial Transcriptomics via Multi-Scale Hierarchical Bio-Prior Contrastive Pretraining</h2>
+    <br/><img src='/images/PSTEL.png'>
+
+  Spatial transcriptomics measures gene expression while keeping its location in the tissue, connecting what tissue looks like to what its cells are doing. PaSTel learns joint representations of histology images and gene expression by adding biological knowledge at three levels: emphasizing informative genes over housekeeping genes, anchoring to known biological pathways, and modeling how neighboring regions form tissue structure. PaSTel outperforms existing models across multiple downstream tasks.
 
   
-  
-  
+<h2> Disentangling Marginal Capacity from Geometry in Optimal-Transport Label Transfer<h2>
+   <br/><img src='/images/OT.png'>
+
+  Optimal transport (OT) is a common way to transfer labels between datasets, such as annotating spatial data using a labeled single-cell reference. When the two datasets have different cell-type compositions, OT systematically misses rare classes, and these errors are hard to detect because the model remains confident. We show the cause is that each class can only send as much “mass” as it has in the source data, so rare classes run out of capacity. Matching this capacity to the target composition nearly doubles macro-F1 on single-cell data (0.32 to 0.62). This also separates errors caused by limited capacity from errors caused by poorly separated classes.
 <h2>IsoRegNet: A multi-task learning framework to model and analyze transcript isoform regulatory network</h2>
 
  <br/><img src='/images/IsoregNetfig.png'>
