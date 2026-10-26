@@ -32,10 +32,6 @@ redirect_from:
 .rs-card p{font-size:0.93em;line-height:1.7;color:#444;margin:0 0 0.8em 0;}
 .rs-links a{display:inline-block;font-size:0.78em;font-weight:600;text-decoration:none !important;color:#2e6da4;border:1px solid #c9dced;border-radius:6px;padding:0.2em 0.8em;margin-right:0.4em;transition:all 0.15s ease;}
 .rs-links a:hover{background:#2e6da4;color:#fff;border-color:#2e6da4;}
-.rs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2em;}
-.rs-interest{background:#fafbfd;border:1px solid #e8edf2;border-radius:12px;padding:1.1em 1.3em;}
-.rs-interest h3{margin:0 0 0.5em 0;font-size:1.05em;color:#1d2b36;}
-.rs-interest p{font-size:0.9em;line-height:1.65;color:#4a5560;margin:0;}
 </style>
 
 <div class="rs-hero">
@@ -91,19 +87,6 @@ redirect_from:
 <p>MicroRNAs (miRNAs) are important non-coding post-transcriptional regulators that are involved in many biological processes and human diseases. Individual miRNAs may regulate hundreds of genes, giving rise to a complex gene regulatory network in which transcripts carrying miRNA binding sites act as <strong>competing endogenous RNAs (ceRNAs)</strong>. Several methods for the analysis of ceRNA interactions exist, but these do often not adjust for statistical confounders or address the problem that more than one miRNA interacts with a target transcript.</p>
 <p>We developed <strong>SPONGE</strong>, a method for the fast construction of ceRNA networks. SPONGE uses <strong>multiple sensitivity correlation</strong>, a newly defined measure for which we can estimate a distribution under a null hypothesis. SPONGE can accurately quantify the contribution of multiple miRNAs to a ceRNA interaction with a probabilistic model that addresses previously neglected confounding factors and allows fast P-value calculation, thus outperforming existing approaches. We applied SPONGE to paired miRNA and gene expression data from The Cancer Genome Atlas for studying global effects of miRNA-mediated cross-talk. Our results highlight already established and novel protein-coding and non-coding ceRNAs which could serve as biomarkers in cancer.</p>
 <div class="rs-links"><a href="https://academic.oup.com/bioinformatics/article/35/14/i596/5529172">Full text</a></div>
-</div>
-
-<div class="rs-section">🔭 Research Interests</div>
-
-<div class="rs-grid">
-<div class="rs-interest">
-<h3>🧬 Single-Cell Genomics</h3>
-<p>Single-cell multi-omics data provides us an opportunity to understand biological processes at the fundamental level. These technologies drive new discoveries and are rapidly advancing, which calls for the constant design and improvement of computational methods for integration, interpretation, and analysis. I develop new methods for single cell data analysis using a combination of rigorous statistical approaches. These methods are necessary to cope with the inherent noise of these technologies and to focus on computationally efficient design and implementation such that resulting method can handle thousands of single cell omics data.</p>
-</div>
-<div class="rs-interest">
-<h3>🧪 Computational Epigenomics</h3>
-<p>I would like to continue my work on understanding the system perspective of transcriptional and post-transcriptional gene regulation, answering questions like: What are the rules of enhancer gene targeting? How do structural variations in enhancers effect target gene regulation? Which epigenetic signatures contribute to establishing cell identity? Which regulatory interactions are involved in changing cell identity?</p>
-</div>
 </div>
 
 {% include base_path %}
