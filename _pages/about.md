@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 <style>
+@media (min-width:1024px){.page{padding-right:0 !important;}}
 .ab-hero{background:linear-gradient(135deg,#eef4fb 0%,#f4eefa 55%,#fdf3ec 100%);border:1px solid #e3e9f1;border-radius:16px;padding:1.8em 1.8em 1.5em 1.8em;margin:0 0 2em 0;}
 .ab-hello{font-size:0.85em;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#7b5ea7;margin:0 0 0.4em 0;}
 .ab-headline{font-size:1.7em;font-weight:800;line-height:1.25;color:#1d2b36;margin:0 0 0.6em 0;}
@@ -22,16 +23,17 @@ redirect_from:
 .ab-bio{background:#fff;border:1px solid #e8edf2;border-radius:12px;padding:1.2em 1.4em;font-size:0.94em;line-height:1.75;color:#444;}
 .ab-bio p{margin:0 0 0.8em 0;}
 .ab-bio p:last-child{margin:0;}
-.ab-timeline{position:relative;margin:0 0 0 0.4em;padding:0 0 0 1em;border-left:2px solid #e1e8f0;}
+.ab-timeline{position:relative;margin:0;padding:0;}
 .ab-news{position:relative;margin:0 0 1em 0;padding:0.9em 1.3em;background:#fff;border:1px solid #e8edf2;border-radius:10px;font-size:0.92em;line-height:1.6;color:#444;transition:transform 0.15s ease,box-shadow 0.15s ease;}
 .ab-news:hover{transform:translateX(3px);box-shadow:0 4px 12px rgba(0,0,0,0.06);}
-.ab-news::before{content:"";position:absolute;left:calc(-1em - 10px);top:1.2em;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #4a90c2;}
-.ab-news.paper::before{border-color:#7b5ea7;}
-.ab-news.talk::before{border-color:#d4915a;}
+.ab-news{border-left:4px solid #4a90c2;}
+.ab-news.paper{border-left-color:#7b5ea7;}
+.ab-news.talk{border-left-color:#d4915a;}
 .ab-badge{display:inline-block;font-size:0.7em;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:0.15em 0.6em;border-radius:999px;margin-right:0.5em;vertical-align:middle;}
 .paper .ab-badge{background:#f1ecf8;color:#5e4385;}
 .talk .ab-badge{background:#fbf1e8;color:#a3672f;}
-.ab-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.2em;}
+.ab-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2em;}
+@media (max-width:600px){.ab-grid{grid-template-columns:1fr;}}
 .ab-person{background:#fff;border:1px solid #e8edf2;border-radius:12px;padding:1.2em 1.4em;transition:transform 0.15s ease,box-shadow 0.15s ease;}
 .ab-person:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,0.07);}
 .ab-person .name{font-weight:700;color:#1d2b36;font-size:0.98em;}
