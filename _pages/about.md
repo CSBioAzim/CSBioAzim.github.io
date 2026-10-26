@@ -34,6 +34,9 @@ I am currently a principal Artificial Intelligence scientist at [J&J](https://ww
 
 
 ## News
+*  Our work [Spatially Informed and Direction Sensitive Representation Learning for Spatial Transcriptomics](https://arxiv.org/abs/2610.28579), was published at NeurIPS 2026!
+*  Our work [Disentangling Marginal Capacity from Geometry in Optimal-Transport Label Transfer](https://arxiv.org/abs/2610.14853), was published at NeurIPS 2026!
+*  Our work [VCLMU: Mechanism-Centric Virtual Cell World Modeling for Perturbation Response](https://arxiv.org/abs/2610.04475), was published at NeurIPS 2026!
 * I will give an invited talk on **Scaling AI across Pharma R&D** at [AIDDD](https://www.aidrivendrugdevelopment.com/speakers-7lf7) in October 2026.
 * Our work [PaSTel, bridging histology and spatial transcriptomics through multimodal, bio-prior-guided contrastive pretraining](https://arxiv.org/abs/2608.14924), was published at ICML 2026!
 * I will give an invited talk on **AI in Biotech: Accelerating Drug Discovery & Development** at [Future Bioteh Expo](https://futurebiotechexpo.com/conference/speakers) in Jun 2026.
