@@ -22,17 +22,17 @@ redirect_from:
 .ab-bio{background:#fff;border:1px solid #e8edf2;border-radius:12px;padding:1.2em 1.4em;font-size:0.94em;line-height:1.75;color:#444;}
 .ab-bio p{margin:0 0 0.8em 0;}
 .ab-bio p:last-child{margin:0;}
-.ab-timeline{position:relative;margin:0;padding:0 0 0 1.4em;border-left:2px solid #e1e8f0;}
-.ab-news{position:relative;margin:0 0 1em 0;padding:0.75em 1em;background:#fff;border:1px solid #e8edf2;border-radius:10px;font-size:0.92em;line-height:1.6;color:#444;transition:transform 0.15s ease,box-shadow 0.15s ease;}
+.ab-timeline{position:relative;margin:0 0 0 0.4em;padding:0 0 0 1em;border-left:2px solid #e1e8f0;}
+.ab-news{position:relative;margin:0 0 1em 0;padding:0.9em 1.3em;background:#fff;border:1px solid #e8edf2;border-radius:10px;font-size:0.92em;line-height:1.6;color:#444;transition:transform 0.15s ease,box-shadow 0.15s ease;}
 .ab-news:hover{transform:translateX(3px);box-shadow:0 4px 12px rgba(0,0,0,0.06);}
-.ab-news::before{content:"";position:absolute;left:-1.95em;top:1.05em;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #4a90c2;}
+.ab-news::before{content:"";position:absolute;left:calc(-1em - 10px);top:1.2em;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #4a90c2;}
 .ab-news.paper::before{border-color:#7b5ea7;}
 .ab-news.talk::before{border-color:#d4915a;}
 .ab-badge{display:inline-block;font-size:0.7em;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:0.15em 0.6em;border-radius:999px;margin-right:0.5em;vertical-align:middle;}
 .paper .ab-badge{background:#f1ecf8;color:#5e4385;}
 .talk .ab-badge{background:#fbf1e8;color:#a3672f;}
-.ab-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1em;}
-.ab-person{background:#fff;border:1px solid #e8edf2;border-radius:12px;padding:1em 1.1em;transition:transform 0.15s ease,box-shadow 0.15s ease;}
+.ab-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.2em;}
+.ab-person{background:#fff;border:1px solid #e8edf2;border-radius:12px;padding:1.2em 1.4em;transition:transform 0.15s ease,box-shadow 0.15s ease;}
 .ab-person:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,0.07);}
 .ab-person .name{font-weight:700;color:#1d2b36;font-size:0.98em;}
 .ab-person .school{font-size:0.8em;color:#7b5ea7;font-weight:600;margin:0.15em 0 0.45em 0;}
