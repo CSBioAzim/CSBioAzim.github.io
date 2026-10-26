@@ -31,7 +31,7 @@ author_profile: true
 .pub-scholar a:hover{background:#245a88;}
 </style>
 
-<p class="pub-intro">My work spans machine learning for biology, from virtual cells and spatial omics to gene regulation. Here's a selection of my papers. 🧬</p>
+<p class="pub-intro">My work spans deep multimodal representation learning for multi omics to building virtual cells. Here's a selection of my papers. 🧬</p>
 
 <div class="pub-section">✨ Recent</div>
 
