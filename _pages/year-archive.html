@@ -6,71 +6,105 @@ author_profile: true
 redirect_from:
   - /wordpress/blog-posts/
 ---
-<h1>Summary</h1>
-<br/><img src='/images/Azim_ResearchSummaryFinal.png'>
 
-<p>The cell is a highly mysterious intelligent machine that fascinates my imagination and arouses my curiosity. My
-research revolves around development and application of principled machine learning methods for interpreting
-complex biological data sets. I love to design novel machine learning algorithms, especially when they allow the
-analysis of data in ways that have not yet been possible. I am interested in working on fundamental biological
-problems that would have an impact on our understanding of human cells and disease mechanisms. An ongoing theme in my research is the integration of single cell multi-omics data sets to understand underlying biological processes that contribute to a specific phenotype.</p>
+<style>
+.rs-hero{background:linear-gradient(135deg,#eef4fb 0%,#f4eefa 100%);border:1px solid #e3e9f1;border-radius:14px;padding:1.6em 1.6em 1.3em 1.6em;margin:0 0 2em 0;}
+.rs-hero h1{margin:0 0 0.5em 0;font-size:1.6em;color:#1d2b36;}
+.rs-hero p{font-size:0.98em;line-height:1.7;color:#3a4652;margin:0 0 1em 0;}
+.rs-tags{display:flex;flex-wrap:wrap;gap:0.45em;}
+.rs-tag{font-size:0.76em;font-weight:600;padding:0.25em 0.8em;border-radius:999px;background:#fff;color:#2e6da4;border:1px solid #c9dced;}
+.rs-summary-img{width:100%;border-radius:10px;margin:0 0 1.5em 0;}
+.rs-section{display:flex;align-items:center;gap:0.6em;font-size:1.3em;font-weight:700;color:#2c3e50;margin:2.2em 0 1.1em 0;}
+.rs-section::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,#d6e4f0,transparent);}
+.rs-card{background:#fff;border:1px solid #e8edf2;border-top:4px solid #4a90c2;border-radius:12px;padding:1.2em 1.4em;margin:0 0 1.5em 0;box-shadow:0 1px 3px rgba(0,0,0,0.04);transition:transform 0.15s ease,box-shadow 0.15s ease;}
+.rs-card:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,0.08);}
+.rs-card.neurips{border-top-color:#7b5ea7;}
+.rs-card.icml{border-top-color:#2e86c1;}
+.rs-card.journal{border-top-color:#5aa17f;}
+.rs-card.conf{border-top-color:#d4915a;}
+.rs-venue{display:inline-block;font-size:0.72em;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:0.2em 0.7em;border-radius:999px;margin-bottom:0.6em;}
+.neurips .rs-venue{background:#f1ecf8;color:#5e4385;}
+.icml .rs-venue{background:#e8f2fa;color:#1f6391;}
+.journal .rs-venue{background:#eaf5ef;color:#3b7a5c;}
+.conf .rs-venue{background:#fbf1e8;color:#a3672f;}
+.rs-title{font-size:1.15em;font-weight:700;color:#1d2b36;line-height:1.4;margin:0 0 0.8em 0;}
+.rs-img{width:100%;border-radius:8px;border:1px solid #eef1f4;margin:0 0 0.9em 0;background:#fafbfc;}
+.rs-card p{font-size:0.93em;line-height:1.7;color:#444;margin:0 0 0.8em 0;}
+.rs-links a{display:inline-block;font-size:0.78em;font-weight:600;text-decoration:none !important;color:#2e6da4;border:1px solid #c9dced;border-radius:6px;padding:0.2em 0.8em;margin-right:0.4em;transition:all 0.15s ease;}
+.rs-links a:hover{background:#2e6da4;color:#fff;border-color:#2e6da4;}
+.rs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2em;}
+.rs-interest{background:#fafbfd;border:1px solid #e8edf2;border-radius:12px;padding:1.1em 1.3em;}
+.rs-interest h3{margin:0 0 0.5em 0;font-size:1.05em;color:#1d2b36;}
+.rs-interest p{font-size:0.9em;line-height:1.65;color:#4a5560;margin:0;}
+</style>
 
-<h1>Projects</h1>
+<div class="rs-hero">
+<h1>Hi, I'm Azim 👋</h1>
+<p>The cell is a highly mysterious intelligent machine that fascinates my imagination and arouses my curiosity. As a Principal AI Scientist at Johnson &amp; Johnson Innovative Medicine, I develop machine learning methods that help us understand and simulate it, from deep multimodal representation learning to building virtual cells. My work integrates genomics, spatial transcriptomics, imaging and proteomics into foundation models grounded in biological priors such as pathways and regulatory networks. The goal is models that not only predict how cells respond to perturbations but also reveal the mechanisms behind those responses, accelerating drug discovery in oncology and immunology.</p>
+<div class="rs-tags"><span class="rs-tag">Virtual Cells</span><span class="rs-tag">Foundation Models</span><span class="rs-tag">Multimodal Learning</span><span class="rs-tag">Spatial Omics</span><span class="rs-tag">Single-Cell Genomics</span><span class="rs-tag">Gene Regulation</span><span class="rs-tag">Drug Discovery</span></div>
+</div>
 
-<h2>Mechanism-Centric Virtual Cell World Modeling for Perturbation Response</h2>
-<br/><img src='/images/VC.png'>
+<!-- Research summary figure (remove the comment markers to show it again)
+<img class="rs-summary-img" src='/images/Azim_ResearchSummaryFinal.png'>
+-->
 
+<div class="rs-section">🚀 Current Projects</div>
+
+<div class="rs-card neurips">
+<span class="rs-venue">NeurIPS 2026</span>
+<div class="rs-title">Mechanism-Centric Virtual Cell World Modeling for Perturbation Response</div>
+<img class="rs-img" src='/images/VC.png'>
 <p>A virtual cell is a computational model that simulates how a cell behaves and responds to interventions such as genetic perturbations or drugs, enabling biological experiments to be explored in silico before they are run in the lab. A core capability of such models is predicting how a cell's molecular state changes under perturbation. Most existing approaches map a baseline profile and a perturbation directly to an outcome, skipping the cellular transition in between. VCLMU instead represents cell state as a set of Latent Mechanism Units (LMUs), each pairing a reusable identity grounded in multimodal biological evidence with an observation-specific state, and treats perturbations as actions that drive mechanism-specific transitions in this latent space. Pretrained on ~200K pseudo-bulk profiles and then on single-cell perturbation data, VCLMU improves perturbation-specific response prediction across six held-out-perturbation benchmarks, and its learned units recover interpretable biological response programs.</p>
+<div class="rs-links"><a href="https://arxiv.org/abs/2610.04475">arXiv</a><a href="https://arxiv.org/pdf/2610.04475">PDF</a></div>
+</div>
 
-<h2>PaSTel: Anchoring Histology in Spatial Transcriptomics via Multi-Scale Hierarchical Bio-Prior Contrastive Pretraining</h2>
-<br/><img src='/images/PSTEL.png'>
-
+<div class="rs-card icml">
+<span class="rs-venue">ICML 2026</span>
+<div class="rs-title">PaSTel: Anchoring Histology in Spatial Transcriptomics via Multi-Scale Hierarchical Bio-Prior Contrastive Pretraining</div>
+<img class="rs-img" src='/images/PSTEL.png'>
 <p>Spatial transcriptomics measures gene expression while keeping its location in the tissue, connecting what tissue looks like to what its cells are doing. PaSTel learns joint representations of histology images and gene expression by adding biological knowledge at three levels: emphasizing informative genes over housekeeping genes, anchoring to known biological pathways, and modeling how neighboring regions form tissue structure. PaSTel outperforms existing models across multiple downstream tasks.</p>
+<div class="rs-links"><a href="https://arxiv.org/abs/2608.14924">arXiv</a><a href="https://arxiv.org/pdf/2608.14924">PDF</a></div>
+</div>
 
-<h2>Disentangling Marginal Capacity from Geometry in Optimal-Transport Label Transfer</h2>
-<br/><img src='/images/OT.png'>
-
+<div class="rs-card neurips">
+<span class="rs-venue">NeurIPS 2026</span>
+<div class="rs-title">Disentangling Marginal Capacity from Geometry in Optimal-Transport Label Transfer</div>
+<img class="rs-img" src='/images/OT.png'>
 <p>Optimal transport (OT) is a common way to transfer labels between datasets, such as annotating spatial data using a labeled single-cell reference. When the two datasets have different cell-type compositions, OT systematically misses rare classes, and these errors are hard to detect because the model remains confident. We show the cause is that each class can only send as much "mass" as it has in the source data, so rare classes run out of capacity. Matching this capacity to the target composition nearly doubles macro-F1 on single-cell data (0.32 to 0.62). This also separates errors caused by limited capacity from errors caused by poorly separated classes.</p>
+<div class="rs-links"><a href="https://arxiv.org/abs/2610.14853">arXiv</a><a href="https://arxiv.org/pdf/2610.14853">PDF</a></div>
+</div>
 
-<h2>IsoRegNet: A multi-task learning framework to model and analyze transcript isoform regulatory network</h2>
-<br/><img src='/images/IsoregNetfig.png'>
+<div class="rs-section">📚 Earlier Projects</div>
 
-<p>Understanding gene regulation is an important aspect in the context of
-cell differentiation, disease and environmental changes. Due to the complexity
-of gene regulation, methods for the inference of gene regulatory
-networks (GRNs), are often limited to one type of regulator, for example
-only DNA binding transcription factors or microRNAs. Also the diversity
-in gene isoforms is rarely taken into account during the construction of
-GRNs. I've developed a novel principled approach that allows to learn associations
-between transcriptional and post-transcriptional regulators with
-genes or their transcript isoforms. Using a novel multi-task formulation
-we design a regression framework, which allows to overcome some of the
-noise in isoform expression level estimates, leading to accurate predictions.</p>
+<div class="rs-card conf">
+<span class="rs-venue">German Conference on Bioinformatics 2016</span>
+<div class="rs-title">IsoRegNet: A multi-task learning framework to model and analyze transcript isoform regulatory network</div>
+<img class="rs-img" src='/images/IsoregNetfig.png'>
+<p>Understanding gene regulation is an important aspect in the context of cell differentiation, disease and environmental changes. Due to the complexity of gene regulation, methods for the inference of gene regulatory networks (GRNs) are often limited to one type of regulator, for example only DNA binding transcription factors or microRNAs. Also the diversity in gene isoforms is rarely taken into account during the construction of GRNs. I've developed a novel principled approach that allows to learn associations between transcriptional and post-transcriptional regulators with genes or their transcript isoforms. Using a novel multi-task formulation we design a regression framework, which allows to overcome some of the noise in isoform expression level estimates, leading to accurate predictions.</p>
+<div class="rs-links"><a href="https://peerj.com/preprints/2377/">Full text</a></div>
+</div>
 
-<h2>Inferring genome-wide networks of competing endogenous RNAs</h2>
-<br/><img src='/images/SpongFig.png'>
+<div class="rs-card journal">
+<span class="rs-venue">Bioinformatics · ISMB 2019</span>
+<div class="rs-title">SPONGE: Inferring genome-wide networks of competing endogenous RNAs</div>
+<img class="rs-img" src='/images/SpongFig.png'>
+<p>MicroRNAs (miRNAs) are important non-coding post-transcriptional regulators that are involved in many biological processes and human diseases. Individual miRNAs may regulate hundreds of genes, giving rise to a complex gene regulatory network in which transcripts carrying miRNA binding sites act as <strong>competing endogenous RNAs (ceRNAs)</strong>. Several methods for the analysis of ceRNA interactions exist, but these do often not adjust for statistical confounders or address the problem that more than one miRNA interacts with a target transcript.</p>
+<p>We developed <strong>SPONGE</strong>, a method for the fast construction of ceRNA networks. SPONGE uses <strong>multiple sensitivity correlation</strong>, a newly defined measure for which we can estimate a distribution under a null hypothesis. SPONGE can accurately quantify the contribution of multiple miRNAs to a ceRNA interaction with a probabilistic model that addresses previously neglected confounding factors and allows fast P-value calculation, thus outperforming existing approaches. We applied SPONGE to paired miRNA and gene expression data from The Cancer Genome Atlas for studying global effects of miRNA-mediated cross-talk. Our results highlight already established and novel protein-coding and non-coding ceRNAs which could serve as biomarkers in cancer.</p>
+<div class="rs-links"><a href="https://academic.oup.com/bioinformatics/article/35/14/i596/5529172">Full text</a></div>
+</div>
 
-<p>MicroRNAs (miRNAs) are important non-coding post-transcriptional regulators that are involved in many biological processes and human diseases.
-Individual miRNAs may regulate hundreds of genes, giving rise to a complex gene regulatory network in which transcripts carrying
-miRNA binding sites act as <strong>competing endogenous RNAs (ceRNAs)</strong>. Several methods for the analysis of ceRNA interactions exist,
-but these do often not adjust for statistical confounders or address the problem that more than one miRNA interacts with a target transcript.</p>
+<div class="rs-section">🔭 Research Interests</div>
 
-<p>We developed <strong>SPONGE</strong>, a method for the fast construction of ceRNA networks. SPONGE uses <strong>multiple sensitivity correlation</strong>, a newly defined measure for which we can estimate a distribution under a null hypothesis. SPONGE can accurately quantify the contribution of multiple miRNAs to a ceRNA interaction with a probabilistic model that addresses previously neglected confounding factors and allows fast P-value calculation, thus outperforming existing approaches. We applied SPONGE to paired miRNA and gene expression data from The Cancer Genome Atlas for studying global effects of miRNA-mediated cross-talk.
-Our results highlight already established and novel protein-coding and non-coding ceRNAs which could serve as biomarkers in cancer.</p>
-
-<h1>Single cell genomics</h1>
-
-<p>Single-cell multi-omics data provides us an opportunity to understand biological processes at the fundamental
-level. These technologies drive new discoveries and are rapidly advancing, which calls for the constant design
-and improvement of computational methods for integration, interpretation, and analysis. I
-develop new methods for single cell data analysis using a combination of rigorous statistical approaches. These
-methods are necessary to cope with the inherent noise of these technologies and to focus on computationally
-efficient design and implementation such that resulting method can handle thousands of single cell omics data.</p>
-
-<h1>Computational Epigenomics</h1>
-
-<p>I would like to continue my work on understanding the system perspective of transcriptional and post-transcriptional gene regulation, answering questions like: What are the rules of enhancer gene targeting? How do structural variations in enhancers effect target gene regulation? Which epigenetic signatures contribute to establishing cell
-identity? Which regulatory interactions are involved in changing cell identity?</p>
+<div class="rs-grid">
+<div class="rs-interest">
+<h3>🧬 Single-Cell Genomics</h3>
+<p>Single-cell multi-omics data provides us an opportunity to understand biological processes at the fundamental level. These technologies drive new discoveries and are rapidly advancing, which calls for the constant design and improvement of computational methods for integration, interpretation, and analysis. I develop new methods for single cell data analysis using a combination of rigorous statistical approaches. These methods are necessary to cope with the inherent noise of these technologies and to focus on computationally efficient design and implementation such that resulting method can handle thousands of single cell omics data.</p>
+</div>
+<div class="rs-interest">
+<h3>🧪 Computational Epigenomics</h3>
+<p>I would like to continue my work on understanding the system perspective of transcriptional and post-transcriptional gene regulation, answering questions like: What are the rules of enhancer gene targeting? How do structural variations in enhancers effect target gene regulation? Which epigenetic signatures contribute to establishing cell identity? Which regulatory interactions are involved in changing cell identity?</p>
+</div>
+</div>
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
