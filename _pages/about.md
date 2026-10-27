@@ -12,7 +12,7 @@ redirect_from:
 @media (min-width:1024px){.page{padding-right:0 !important;}}
 
 /* ---------- Hero ---------- */
-.ab-hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#0b1f3a 0%,#132f57 45%,#1f2f6b 100%);border:1px solid #1c355e;border-radius:20px;padding:2.2em 2.2em 1.9em 2.2em;margin:0 0 2.4em 0;box-shadow:0 14px 36px rgba(11,31,58,0.28);}
+.ab-hero{position:relative;overflow:hidden;background-color:#0f2747;background-image:radial-gradient(rgba(255,255,255,0.09) 1px,transparent 1.4px),linear-gradient(135deg,#0b1f3a 0%,#123059 50%,#16376a 100%);background-size:22px 22px,100% 100%;border:1px solid #1c355e;border-radius:20px;padding:2.2em 2.2em 1.9em 2.2em;margin:0 0 2.4em 0;box-shadow:0 14px 36px rgba(11,31,58,0.28);}
 .ab-hero::before{content:"";position:absolute;top:-100px;right:-80px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(140,120,230,0.35) 0%,rgba(140,120,230,0) 70%);pointer-events:none;}
 .ab-hero::after{content:"";position:absolute;bottom:-120px;left:-70px;width:320px;height:320px;border-radius:50%;background:radial-gradient(circle,rgba(64,160,230,0.25) 0%,rgba(64,160,230,0) 70%);pointer-events:none;}
 .ab-hero > *{position:relative;z-index:1;}
@@ -79,16 +79,10 @@ redirect_from:
 @media (max-width:600px){.ab-awards{grid-template-columns:1fr;}}
 .ab-awards li{display:flex;gap:0.8em;align-items:center;background:#fff;border:1px solid #e3e9f1;border-radius:12px;padding:0.85em 1.1em;margin:0;font-size:0.92em;line-height:1.55;color:#444;box-shadow:0 2px 8px rgba(19,47,87,0.04);transition:transform 0.15s ease,box-shadow 0.15s ease;}
 .ab-awards li:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(19,47,87,0.09);}
-.ab-awards li:first-child{grid-column:1 / -1;background:linear-gradient(135deg,#0b1f3a,#1f2f6b);border-color:#1c355e;color:#dbe5f2;}
-.ab-awards li:first-child strong{color:#fff;}
-.ab-awards .icon{flex:0 0 auto;width:2.2em;height:2.2em;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.05em;background:#f1f4fa;}
-.ab-awards li:first-child .icon{background:rgba(255,255,255,0.12);}
-</style>
+.ab-awards .icon{flex:0 0 auto;width:2.2em;height:2.2em;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.05em;background:#f1f4fa;}</style>
 
 <div class="ab-hero">
 <div class="ab-hello"><span class="ab-wave">👋</span> Hello, welcome!</div>
-<div class="ab-name">Principal AI Scientist</div>
-<div class="ab-role">Johnson &amp; Johnson Innovative Medicine<span>•</span>Cambridge, MA</div>
 <p>I am a Principal AI Scientist working at the intersection of AI, machine learning, and computational biology. I build foundation models and AI systems that integrate multimodal biological data, from genomics and proteomics to imaging and scientific literature, to accelerate scientific discovery and therapeutic innovation.</p>
 <p>Over the past decade, I have led AI-driven research across drug discovery, translational science, and biopharmaceutical R&amp;D. My current focus includes <strong>virtual cells</strong>, <strong>biological world models</strong>, and <strong>agentic AI</strong> that predict cellular responses and guide experiments, accelerating the path from data to therapies.</p>
 <div class="ab-actions">
@@ -106,7 +100,7 @@ redirect_from:
 <div class="ab-section">🧭 My Journey</div>
 
 <div class="ab-bio">
-<p>I received a master's in Bioinformatics from the <a href="https://www.mpi-inf.mpg.de/home/">Max Planck Institute for Informatics</a> and <a href="https://zbi-www.bioinf.uni-sb.de/en">Saarland University</a> in Germany, and did my PhD in Computer Science with the <a href="https://www.imprs-cs.de/">International Max Planck Research School for Computer Science</a> at the Max Planck Institute for Informatics, where I was fortunate to be advised by <a href="https://schulzlab.github.io/MS.html">Prof. Marcel Schulz</a>. I was also a visiting student in <a href="http://fraenkel.mit.edu/">Prof. Ernest Fraenkel's lab</a> at MIT.</p>
+<p>I received a master's in Bioinformatics from the <a href="https://www.mpi-inf.mpg.de/home/">Max Planck Institute for Informatics</a> and <a href="https://zbi-www.bioinf.uni-sb.de/en">Saarland University</a> in Germany, and did my PhD in Computer Science with the <a href="https://www.imprs-cs.de/">International Max Planck Research School for Computer Science</a> at the Max Planck Institute for Informatics, where I was fortunate to be advised by <a href="https://schulzlab.github.io/MS.html">Prof. Marcel Schulz</a>. I was also a visiting student in <a href="http://fraenkel.mit.edu/">Prof. Ernest Fraenkel's lab</a> at <a href="https://www.mit.edu/">MIT</a>.</p>
 <p>From April 2019 to February 2021, I was a postdoctoral research associate at the <a href="https://www.broadinstitute.org/">Broad Institute of MIT and Harvard</a> and <a href="https://www.csail.mit.edu/">MIT CSAIL</a> under the supervision of <a href="http://compbio.mit.edu/compbio.html">Prof. Manolis Kellis</a>.</p>
 <p><span class="now">Today</span> I am a Principal AI Scientist at <a href="https://www.jnj.com/">Johnson &amp; Johnson Innovative Medicine</a>, building foundation models, virtual cells, and agentic AI for drug discovery.</p>
 </div>
