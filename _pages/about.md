@@ -12,13 +12,11 @@ redirect_from:
 @media (min-width:1024px){.page{padding-right:0 !important;}}
 
 /* ---------- Hero ---------- */
-.ab-hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#071426 0%,#0b2240 40%,#0e3050 75%,#0f3d55 100%);border:1px solid #17375c;border-radius:20px;padding:2.2em 2.2em 1.9em 2.2em;margin:0 0 2.4em 0;box-shadow:0 14px 36px rgba(7,20,38,0.35);}
+.ab-hero{position:relative;overflow:hidden;background:radial-gradient(120% 140% at 100% 0%,#1d2a6b 0%,rgba(29,42,107,0) 55%),radial-gradient(110% 120% at 0% 100%,#0d3b4f 0%,rgba(13,59,79,0) 55%),linear-gradient(135deg,#070b1d 0%,#0c1330 50%,#111a40 100%);border:1px solid #1e2a55;border-radius:20px;padding:2.2em 2.2em 1.9em 2.2em;margin:0 0 2.4em 0;box-shadow:0 14px 36px rgba(7,20,38,0.35);}
 .ab-hero .ab-net{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;}
-.ab-pulse{animation:ab-pulse 3.2s ease-in-out infinite;}
-@keyframes ab-pulse{0%,100%{fill-opacity:0.35;}50%{fill-opacity:0.9;}}
 @media (max-width:700px){.ab-hero .ab-net{opacity:0.55;}}
-.ab-hero::before{content:"";position:absolute;top:-100px;right:-80px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(79,227,193,0.22) 0%,rgba(79,227,193,0) 70%);pointer-events:none;}
-.ab-hero::after{content:"";position:absolute;bottom:-120px;left:-70px;width:320px;height:320px;border-radius:50%;background:radial-gradient(circle,rgba(95,150,255,0.22) 0%,rgba(95,150,255,0) 70%);pointer-events:none;}
+.ab-hero::before{content:"";position:absolute;top:-100px;right:-80px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(139,108,255,0.28) 0%,rgba(139,108,255,0) 70%);pointer-events:none;}
+.ab-hero::after{content:"";position:absolute;bottom:-120px;left:-70px;width:320px;height:320px;border-radius:50%;background:radial-gradient(circle,rgba(45,212,191,0.20) 0%,rgba(45,212,191,0) 70%);pointer-events:none;}
 .ab-hero > *{position:relative;z-index:1;}
 .ab-hero a{color:#9fd0ff;}
 .ab-hello{display:inline-block;font-size:0.8em;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#d9ccff;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.18);border-radius:999px;padding:0.3em 0.9em;margin:0 0 0.9em 0;}
@@ -28,7 +26,7 @@ redirect_from:
 .ab-role{font-size:1em;font-weight:600;color:#a9bdd6;margin:0 0 1.2em 0;}
 .ab-role span{color:#5c7398;margin:0 0.4em;}
 .ab-hero p{font-size:1em;line-height:1.8;color:#dbe5f2;margin:0 0 1em 0;}
-.ab-hero p strong{color:#fff;background:linear-gradient(transparent 62%,rgba(160,130,255,0.35) 62%);}
+.ab-hero p strong.ab-key{font-weight:800;letter-spacing:0.01em;background:linear-gradient(90deg,#5eead4 0%,#7dd3fc 50%,#c4b5fd 100%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 18px rgba(125,211,252,0.35);border-bottom:2px solid rgba(125,211,252,0.45);padding-bottom:1px;}
 .ab-actions{display:flex;flex-wrap:wrap;gap:0.6em;margin-top:1.4em;}
 .ab-btn{display:inline-flex;align-items:center;gap:0.4em;font-size:0.86em;font-weight:600;padding:0.55em 1.2em;border-radius:999px;text-decoration:none !important;transition:all 0.18s ease;}
 .ab-btn.primary{background:#fff;color:#132f57 !important;border:1px solid #fff;box-shadow:0 4px 14px rgba(0,0,0,0.25);}
@@ -86,16 +84,46 @@ redirect_from:
 .ab-awards .icon{flex:0 0 auto;width:2.2em;height:2.2em;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.05em;background:#f1f4fa;}</style>
 
 <div class="ab-hero">
-<svg class="ab-net" viewBox="0 0 840 470" preserveAspectRatio="xMaxYMid slice" aria-hidden="true"><g stroke="#7fb8ff" stroke-opacity="0.13" stroke-width="1"><line x1="520" y1="60" x2="610" y2="40"/><line x1="520" y1="60" x2="610" y2="120"/><line x1="520" y1="60" x2="610" y2="200"/><line x1="520" y1="60" x2="610" y2="280"/><line x1="520" y1="60" x2="610" y2="360"/><line x1="520" y1="60" x2="610" y2="430"/><line x1="520" y1="140" x2="610" y2="40"/><line x1="520" y1="140" x2="610" y2="120"/><line x1="520" y1="140" x2="610" y2="200"/><line x1="520" y1="140" x2="610" y2="280"/><line x1="520" y1="140" x2="610" y2="360"/><line x1="520" y1="140" x2="610" y2="430"/><line x1="520" y1="220" x2="610" y2="40"/><line x1="520" y1="220" x2="610" y2="120"/><line x1="520" y1="220" x2="610" y2="200"/><line x1="520" y1="220" x2="610" y2="280"/><line x1="520" y1="220" x2="610" y2="360"/><line x1="520" y1="220" x2="610" y2="430"/><line x1="520" y1="300" x2="610" y2="40"/><line x1="520" y1="300" x2="610" y2="120"/><line x1="520" y1="300" x2="610" y2="200"/><line x1="520" y1="300" x2="610" y2="280"/><line x1="520" y1="300" x2="610" y2="360"/><line x1="520" y1="300" x2="610" y2="430"/><line x1="520" y1="380" x2="610" y2="40"/><line x1="520" y1="380" x2="610" y2="120"/><line x1="520" y1="380" x2="610" y2="200"/><line x1="520" y1="380" x2="610" y2="280"/><line x1="520" y1="380" x2="610" y2="360"/><line x1="520" y1="380" x2="610" y2="430"/><line x1="610" y1="40" x2="700" y2="80"/><line x1="610" y1="40" x2="700" y2="170"/><line x1="610" y1="40" x2="700" y2="260"/><line x1="610" y1="40" x2="700" y2="350"/><line x1="610" y1="120" x2="700" y2="80"/><line x1="610" y1="120" x2="700" y2="170"/><line x1="610" y1="120" x2="700" y2="260"/><line x1="610" y1="120" x2="700" y2="350"/><line x1="610" y1="200" x2="700" y2="80"/><line x1="610" y1="200" x2="700" y2="170"/><line x1="610" y1="200" x2="700" y2="260"/><line x1="610" y1="200" x2="700" y2="350"/><line x1="610" y1="280" x2="700" y2="80"/><line x1="610" y1="280" x2="700" y2="170"/><line x1="610" y1="280" x2="700" y2="260"/><line x1="610" y1="280" x2="700" y2="350"/><line x1="610" y1="360" x2="700" y2="80"/><line x1="610" y1="360" x2="700" y2="170"/><line x1="610" y1="360" x2="700" y2="260"/><line x1="610" y1="360" x2="700" y2="350"/><line x1="610" y1="430" x2="700" y2="80"/><line x1="610" y1="430" x2="700" y2="170"/><line x1="610" y1="430" x2="700" y2="260"/><line x1="610" y1="430" x2="700" y2="350"/><line x1="700" y1="80" x2="790" y2="130"/><line x1="700" y1="80" x2="790" y2="230"/><line x1="700" y1="80" x2="790" y2="330"/><line x1="700" y1="170" x2="790" y2="130"/><line x1="700" y1="170" x2="790" y2="230"/><line x1="700" y1="170" x2="790" y2="330"/><line x1="700" y1="260" x2="790" y2="130"/><line x1="700" y1="260" x2="790" y2="230"/><line x1="700" y1="260" x2="790" y2="330"/><line x1="700" y1="350" x2="790" y2="130"/><line x1="700" y1="350" x2="790" y2="230"/><line x1="700" y1="350" x2="790" y2="330"/></g><g stroke="#9fe8ff" stroke-opacity="0.10" stroke-width="1"><line x1="104" y1="421" x2="56" y2="285"/><line x1="248" y1="241" x2="272" y2="253"/><line x1="334" y1="31" x2="329" y2="17"/><line x1="58" y1="238" x2="56" y2="285"/><line x1="58" y1="238" x2="42" y2="40"/><line x1="483" y1="409" x2="388" y2="325"/><line x1="424" y1="365" x2="388" y2="325"/><line x1="424" y1="365" x2="435" y2="280"/><line x1="272" y1="253" x2="241" y2="344"/><line x1="342" y1="90" x2="329" y2="17"/><line x1="310" y1="107" x2="416" y2="105"/><line x1="334" y1="31" x2="342" y2="90"/><line x1="248" y1="241" x2="314" y2="212"/><line x1="310" y1="107" x2="342" y2="90"/><line x1="241" y1="453" x2="296" y2="448"/><line x1="241" y1="453" x2="270" y2="447"/><line x1="388" y1="325" x2="435" y2="280"/><line x1="332" y1="324" x2="388" y2="325"/><line x1="483" y1="409" x2="424" y2="365"/><line x1="104" y1="421" x2="58" y2="238"/><line x1="272" y1="253" x2="314" y2="212"/><line x1="310" y1="107" x2="165" y2="82"/><line x1="310" y1="107" x2="334" y2="31"/><line x1="332" y1="324" x2="241" y2="344"/><line x1="296" y1="448" x2="270" y2="447"/><line x1="241" y1="453" x2="104" y2="421"/><line x1="416" y1="105" x2="342" y2="90"/><line x1="165" y1="82" x2="42" y2="40"/><line x1="272" y1="253" x2="332" y2="324"/></g><g fill="#bfe6ff" fill-opacity="0.30"><circle cx="241" cy="453" r="2"/><circle cx="296" cy="448" r="2"/><circle cx="483" cy="409" r="2"/><circle cx="248" cy="241" r="3.5"/><circle cx="270" cy="447" r="2"/><circle cx="310" cy="107" r="2.5"/><circle cx="104" cy="421" r="2.5"/><circle cx="272" cy="253" r="2.5"/><circle cx="332" cy="324" r="3.5"/><circle cx="416" cy="105" r="2"/><circle cx="58" cy="238" r="3.5"/><circle cx="165" cy="82" r="2"/><circle cx="56" cy="285" r="3.5"/><circle cx="424" cy="365" r="2.5"/><circle cx="334" cy="31" r="2.5"/><circle cx="314" cy="212" r="2"/><circle cx="241" cy="344" r="3.5"/><circle cx="388" cy="325" r="2"/><circle cx="342" cy="90" r="2.5"/><circle cx="329" cy="17" r="3.5"/><circle cx="435" cy="280" r="2.5"/><circle cx="42" cy="40" r="2.5"/></g><g><circle cx="520" cy="60" r="7" fill="#5fd4ff" fill-opacity="0.55" class="ab-pulse"/><circle cx="520" cy="60" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="520" cy="140" r="7" fill="#a99bff" fill-opacity="0.55"/><circle cx="520" cy="140" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="520" cy="220" r="7" fill="#4fe3c1" fill-opacity="0.55"/><circle cx="520" cy="220" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="520" cy="300" r="7" fill="#5fd4ff" fill-opacity="0.55" class="ab-pulse"/><circle cx="520" cy="300" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="520" cy="380" r="7" fill="#a99bff" fill-opacity="0.55"/><circle cx="520" cy="380" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="610" cy="40" r="7" fill="#4fe3c1" fill-opacity="0.55"/><circle cx="610" cy="40" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="610" cy="120" r="7" fill="#5fd4ff" fill-opacity="0.55" class="ab-pulse"/><circle cx="610" cy="120" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="610" cy="200" r="7" fill="#a99bff" fill-opacity="0.55"/><circle cx="610" cy="200" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="610" cy="280" r="7" fill="#4fe3c1" fill-opacity="0.55"/><circle cx="610" cy="280" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="610" cy="360" r="7" fill="#5fd4ff" fill-opacity="0.55" class="ab-pulse"/><circle cx="610" cy="360" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="610" cy="430" r="7" fill="#a99bff" fill-opacity="0.55"/><circle cx="610" cy="430" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="700" cy="80" r="7" fill="#4fe3c1" fill-opacity="0.55"/><circle cx="700" cy="80" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="700" cy="170" r="7" fill="#5fd4ff" fill-opacity="0.55" class="ab-pulse"/><circle cx="700" cy="170" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="700" cy="260" r="7" fill="#a99bff" fill-opacity="0.55"/><circle cx="700" cy="260" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="700" cy="350" r="7" fill="#4fe3c1" fill-opacity="0.55"/><circle cx="700" cy="350" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="790" cy="130" r="7" fill="#5fd4ff" fill-opacity="0.55" class="ab-pulse"/><circle cx="790" cy="130" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="790" cy="230" r="7" fill="#a99bff" fill-opacity="0.55"/><circle cx="790" cy="230" r="3" fill="#ffffff" fill-opacity="0.8"/><circle cx="790" cy="330" r="7" fill="#4fe3c1" fill-opacity="0.55"/><circle cx="790" cy="330" r="3" fill="#ffffff" fill-opacity="0.8"/></g></svg>
+<canvas class="ab-net" id="ab-net" aria-hidden="true"></canvas>
 <div class="ab-hello"><span class="ab-wave">👋</span> Hello, welcome!</div>
 <p>I am a Principal AI Scientist working at the intersection of AI, machine learning, and computational biology. I build foundation models and AI systems that integrate multimodal biological data, from genomics and proteomics to imaging and scientific literature, to accelerate scientific discovery and therapeutic innovation.</p>
-<p>Over the past decade, I have led AI-driven research across drug discovery, translational science, and biopharmaceutical R&amp;D. My current focus includes <strong>virtual cells</strong>, <strong>biological world models</strong>, and <strong>agentic AI</strong> that predict cellular responses and guide experiments, accelerating the path from data to therapies.</p>
+<p>Over the past decade, I have led AI-driven research across drug discovery, translational science, and biopharmaceutical R&amp;D. My current focus includes <strong class="ab-key">virtual cells</strong>, <strong class="ab-key">biological world models</strong>, and <strong class="ab-key">agentic AI</strong> that predict cellular responses and guide experiments, accelerating the path from data to therapies.</p>
 <div class="ab-actions">
 <a class="ab-btn primary" href="mailto:azim.dehghani@gmail.com">✉️ Get in touch</a>
 <a class="ab-btn ghost" href="https://scholar.google.com/citations?user=Zg2wZtQAAAAJ&amp;hl=en">🎓 Google Scholar</a>
 <a class="ab-btn ghost" href="https://www.linkedin.com/in/azimdehghani/">💼 LinkedIn</a>
 </div>
 </div>
+
+<script>
+(function(){
+  var c=document.getElementById('ab-net'); if(!c||!c.getContext) return;
+  var ctx=c.getContext('2d'), hero=c.parentElement, nodes=[], W=0, H=0, dpr=1;
+  var cols=['94,234,212','125,211,252','196,181,253'];
+  var still=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function size(){
+    dpr=window.devicePixelRatio||1; W=hero.clientWidth; H=hero.clientHeight;
+    c.width=W*dpr; c.height=H*dpr; c.style.width=W+'px'; c.style.height=H+'px';
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    var n=Math.max(22,Math.min(70,Math.round(W*H/9000)));
+    nodes=[]; for(var i=0;i<n;i++){nodes.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.35,vy:(Math.random()-.5)*.35,r:1.4+Math.random()*2.2,c:cols[i%3]});}
+  }
+  function frame(){
+    ctx.clearRect(0,0,W,H); var D=130;
+    for(var i=0;i<nodes.length;i++){var a=nodes[i];
+      if(!still){a.x+=a.vx;a.y+=a.vy;if(a.x<0||a.x>W)a.vx*=-1;if(a.y<0||a.y>H)a.vy*=-1;}
+      for(var j=i+1;j<nodes.length;j++){var b=nodes[j],dx=a.x-b.x,dy=a.y-b.y,d=Math.sqrt(dx*dx+dy*dy);
+        if(d<D){ctx.strokeStyle='rgba(125,211,252,'+(0.16*(1-d/D))+')';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}
+    }
+    for(var k=0;k<nodes.length;k++){var p=nodes[k];
+      ctx.fillStyle='rgba('+p.c+',0.12)';ctx.beginPath();ctx.arc(p.x,p.y,p.r*3,0,6.283);ctx.fill();
+      ctx.fillStyle='rgba('+p.c+',0.6)';ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,6.283);ctx.fill();}
+    if(!still) requestAnimationFrame(frame);
+  }
+  size(); frame();
+  var t; window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(function(){size(); if(still) frame();},150);});
+})();
+</script>
 
 <div class="ab-figure">
 <img class="ab-img" src='/images/Azim_ResearchSummaryFinal.png' alt="Overview of my research, from multimodal representation learning toward virtual cells">
