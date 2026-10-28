@@ -30,12 +30,10 @@ redirect_from:
   #fff;
   border:1px solid var(--rule);border-radius:26px;padding:2.4em 2.5em 2.2em 2.5em;margin:0 0 2.2em 0;
   box-shadow:0 1px 2px rgba(18,23,53,0.04),0 18px 40px -22px rgba(30,40,110,0.18);}
-@media (min-width:900px){.ab-wrap .ab-hero p{max-width:57%;}}
 .ab-hero .ab-net{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;}
 .ab-hero > *{position:relative;z-index:1;}
 .ab-hello{font-family:var(--display);font-size:1.05em;font-weight:500;color:var(--muted);margin:0 0 0.9em 0;}
 .ab-hero p{font-family:var(--text);font-size:1.08em;line-height:1.72;color:#2a3050;margin:0 0 0.95em 0;max-width:40em;}
-.ab-hero p strong{font-weight:700;color:var(--ink);}
 .ab-key{font-family:var(--display);font-weight:700;font-size:0.98em;letter-spacing:-0.005em;white-space:nowrap;}
 .ab-key::before{content:"";display:inline-block;width:0.5em;height:0.5em;border-radius:50%;margin:0 0.3em 0.08em 0.05em;vertical-align:middle;}
 .ab-key.gfp{color:var(--gfp-d);} .ab-key.gfp::before{background:var(--gfp);box-shadow:0 0 8px rgba(52,211,154,0.7);}
@@ -105,7 +103,7 @@ redirect_from:
 <div class="ab-hero">
 <canvas class="ab-net" id="ab-net" aria-hidden="true"></canvas>
 <div class="ab-hello">Hello, welcome 👋</div>
-<p>I am a <strong>Principal AI Scientist</strong> working at the intersection of AI, machine learning, and computational biology. I build <strong>foundation models</strong> and <strong>AI systems</strong> that integrate multimodal biological data, from genomics and proteomics to imaging and scientific literature, to accelerate scientific discovery and therapeutic innovation.</p>
+<p>I am a Principal AI Scientist working at the intersection of AI, machine learning, and computational biology. I build foundation models and AI systems that integrate multimodal biological data, from genomics and proteomics to imaging and scientific literature, to accelerate scientific discovery and therapeutic innovation.</p>
 <p>Over the past decade, I have led AI-driven research across drug discovery, translational science, and biopharmaceutical R&amp;D. My current focus includes <span class="ab-key gfp">virtual cells</span>, <span class="ab-key dapi">biological world models</span>, and <span class="ab-key mch">agentic AI</span> that predict cellular responses and guide experiments, accelerating the path from data to therapies.</p>
 <div class="ab-actions">
 <a class="ab-btn primary" href="mailto:azim.dehghani@gmail.com">✉️ Get in touch</a>
@@ -115,68 +113,36 @@ redirect_from:
 </div>
 
 <script>
-/* Background: a cell-state manifold.
-   A gently breathing surface stands for the landscape of cell states. A cell travels along it from its
-   original state to a perturbed state (forward transition), rests, then returns (backward transition). */
 (function(){
   var c=document.getElementById('ab-net'); if(!c||!c.getContext) return;
-  var ctx=c.getContext('2d'), hero=c.parentElement, W=0, H=0;
+  var ctx=c.getContext('2d'), hero=c.parentElement, nodes=[], W=0, H=0;
+  var chans=['108,140,255','52,211,154','240,103,159'];
   var still=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var NU=44, NV=24;
-  function size(){var dpr=window.devicePixelRatio||1; W=hero.clientWidth; H=hero.clientHeight;
-    c.width=W*dpr; c.height=H*dpr; c.style.width=W+'px'; c.style.height=H+'px'; ctx.setTransform(dpr,0,0,dpr,0,0);}
-  function zf(u,v,t){return 0.55*Math.sin(Math.PI*(1.6*u+0.15)+t*0.5)*Math.cos(Math.PI*(v-0.5)*1.1)
-                          +0.28*Math.sin(Math.PI*(2.6*v+u*1.2)-t*0.35)-0.35*u;}
-  function proj(u,v,t){var mobile=window.innerWidth<900, Lw=W*(mobile?0.80:0.30), Lh=H*(mobile?0.30:0.34), x0=W*(mobile?0.08:0.60), y0=H*(mobile?0.92:0.78);
-    return [x0+u*Lw+v*Lw*0.28, y0-v*Lh-zf(u,v,t)*H*(mobile?0.12:0.16)];}
-  function mask(u,v){var du=(u-0.5)/0.5, dv=(v-0.5)/0.5, d=du*du+dv*dv*1.1+0.08*Math.sin(u*7+v*4);
-    return Math.max(0,Math.min(1,(1-d)*4.5));}
-  function mix(a,b,k){return [a[0]+(b[0]-a[0])*k,a[1]+(b[1]-a[1])*k,a[2]+(b[2]-a[2])*k];}
-  var TEAL=[86,186,170], INDIGO=[86,104,196], VIOLET=[150,110,220], AMBER=[214,150,60];
-  function pathPt(k,back){var u=0.24+0.54*k, v=back?0.30+0.1*Math.sin(Math.PI*k):0.56+0.12*Math.sin(Math.PI*k); return [u,v];}
-  var start=performance.now();
-  function frame(now){
-    var t=still?0:(now-start)/1000; ctx.clearRect(0,0,W,H);
-    // surface, drawn back to front
-    for(var j=NV-1;j>=0;j--)for(var i=0;i<NU;i++){
-      var u0=i/NU,u1=(i+1)/NU,v0=j/NV,v1=(j+1)/NV, m=mask((u0+u1)/2,(v0+v1)/2); if(m<=0) continue;
-      var p00=proj(u0,v0,t),p10=proj(u1,v0,t),p11=proj(u1,v1,t),p01=proj(u0,v1,t);
-      var col=mix(TEAL,INDIGO,Math.min(1,Math.max(0,(u0+u1)/2*1.1-0.05)));
-      var shade=0.82+0.18*Math.sin(Math.PI*(1.6*u0+0.15)+t*0.5);
-      ctx.fillStyle='rgba('+(col[0]*shade|0)+','+(col[1]*shade|0)+','+(col[2]*shade|0)+','+(0.88*m)+')';
-      ctx.beginPath();ctx.moveTo(p00[0],p00[1]);ctx.lineTo(p10[0],p10[1]);ctx.lineTo(p11[0],p11[1]);ctx.lineTo(p01[0],p01[1]);ctx.closePath();ctx.fill();
-      ctx.strokeStyle='rgba(255,255,255,'+(0.65*m)+')';ctx.lineWidth=0.6;ctx.stroke();
+  function size(){
+    var dpr=window.devicePixelRatio||1; W=hero.clientWidth; H=hero.clientHeight;
+    c.width=W*dpr; c.height=H*dpr; c.style.width=W+'px'; c.style.height=H+'px';
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    var n=Math.max(20,Math.min(64,Math.round(W*H/9500))); nodes=[];
+    for(var i=0;i<n;i++){
+      // nodes favour the right side so the text column stays calm
+      var x=W*(0.25+0.75*Math.pow(Math.random(),0.6));
+      nodes.push({x:x,y:Math.random()*H,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,r:1.3+Math.random()*2.2,c:chans[i%3]});
     }
-    // journey timing: forward 4.5s, rest 1.2s, backward 4.5s, rest 1.2s
-    var T=11.4, ph=(t%T), back=false, k;
-    if(ph<4.5){k=ph/4.5;} else if(ph<5.7){k=1;} else if(ph<10.2){back=true;k=1-(ph-5.7)/4.5;} else {back=true;k=0;}
-    var e=k<0.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
-    // trails
-    function trail(isBack,upto,rgb,alpha){ctx.beginPath();for(var s=0;s<=40;s++){var kk=s/40; if(isBack? kk<upto: kk>upto) continue;
-        var q=pathPt(kk,isBack), P=proj(q[0],q[1],t); if(s===0||(isBack&&kk>=upto&&false)) ctx.moveTo(P[0],P[1]); else ctx.lineTo(P[0],P[1]);}
-      ctx.strokeStyle='rgba('+rgb.join(',')+','+alpha+')';ctx.lineWidth=2.4;ctx.lineCap='round';ctx.stroke();}
-    trail(false,1,AMBER,0.3); trail(true,0,VIOLET,0.3);
-    if(!back) trail(false,e,AMBER,1); else { // backward trail drawn from the perturbed end toward the cell
-      ctx.beginPath(); var started=false; for(var s2=40;s2>=0;s2--){var kk2=s2/40; if(kk2<e) break; var q2=pathPt(kk2,true),P2=proj(q2[0],q2[1],t);
-        if(!started){ctx.moveTo(P2[0],P2[1]);started=true;} else ctx.lineTo(P2[0],P2[1]);}
-      ctx.strokeStyle='rgba('+VIOLET.join(',')+',1)';ctx.lineWidth=2.6;ctx.stroke(); }
-    // state anchors
-    var A=proj.apply(null,pathPt(0,false).concat([t])), B=proj.apply(null,pathPt(1,false).concat([t]));
-    [[A,TEAL],[B,VIOLET]].forEach(function(s){ctx.strokeStyle='rgba(255,255,255,0.85)';ctx.lineWidth=4.5;ctx.beginPath();ctx.arc(s[0][0],s[0][1],13,0,6.283);ctx.stroke();ctx.strokeStyle='rgba('+s[1].join(',')+',1)';ctx.lineWidth=2;
-      ctx.beginPath();ctx.arc(s[0][0],s[0][1],13,0,6.283);ctx.stroke();});
-    // the cell
-    var q=pathPt(e,back), P=proj(q[0],q[1],t), cc=mix(TEAL,VIOLET,e), cs=(cc[0]|0)+','+(cc[1]|0)+','+(cc[2]|0);
-    var g=ctx.createRadialGradient(P[0],P[1],0,P[0],P[1],26); g.addColorStop(0,'rgba('+cs+',0.45)'); g.addColorStop(1,'rgba('+cs+',0)');
-    ctx.fillStyle=g;ctx.beginPath();ctx.arc(P[0],P[1],26,0,6.283);ctx.fill();
-    ctx.fillStyle='#fff';ctx.beginPath();ctx.arc(P[0],P[1],9,0,6.283);ctx.fill();
-    ctx.strokeStyle='rgba('+cs+',0.95)';ctx.lineWidth=2.2;ctx.stroke();
-    ctx.fillStyle='rgba('+cs+',0.95)';ctx.beginPath();ctx.arc(P[0],P[1],4,0,6.283);ctx.fill();
-    // soften the left side so the text stays easy to read
-    if(window.innerWidth<900){ctx.save();ctx.globalCompositeOperation='destination-out';ctx.fillStyle='rgba(0,0,0,0.35)';ctx.fillRect(0,0,W,H);ctx.restore();}
+  }
+  function frame(){
+    ctx.clearRect(0,0,W,H); var D=125;
+    for(var i=0;i<nodes.length;i++){var a=nodes[i];
+      if(!still){a.x+=a.vx;a.y+=a.vy;if(a.x<0||a.x>W)a.vx*=-1;if(a.y<0||a.y>H)a.vy*=-1;}
+      for(var j=i+1;j<nodes.length;j++){var b=nodes[j],dx=a.x-b.x,dy=a.y-b.y,d=Math.sqrt(dx*dx+dy*dy);
+        if(d<D){ctx.strokeStyle='rgba(70,85,160,'+(0.16*(1-d/D))+')';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}
+    }
+    for(var k=0;k<nodes.length;k++){var p=nodes[k];
+      ctx.fillStyle='rgba('+p.c+',0.16)';ctx.beginPath();ctx.arc(p.x,p.y,p.r*3.2,0,6.283);ctx.fill();
+      ctx.fillStyle='rgba('+p.c+',0.85)';ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,6.283);ctx.fill();}
     if(!still) requestAnimationFrame(frame);
   }
-  size(); if(still) frame(0); else requestAnimationFrame(frame);
-  var tm; window.addEventListener('resize',function(){clearTimeout(tm);tm=setTimeout(function(){size(); if(still) frame(0);},150);});
+  size(); frame();
+  var t; window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(function(){size(); if(still) frame();},150);});
 })();
 </script>
 
